@@ -1,0 +1,28 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jasonzheng/workspace/projects/playsout_client/playsout_sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/flutter_udid/flutter_udid.framework/flutter_udid'
+relocations:
+  - { offset: 0x5E558, size: 0x8, addend: 0x0, symName: _flutter_udidVersionString, symObjAddr: 0x0, symBinAddr: 0x5F70, symSize: 0x0 }
+  - { offset: 0x5E58D, size: 0x8, addend: 0x0, symName: _flutter_udidVersionNumber, symObjAddr: 0x30, symBinAddr: 0x5FA0, symSize: 0x0 }
+  - { offset: 0x5E762, size: 0x8, addend: 0x0, symName: '_$s12flutter_udid17FlutterUdidPluginCMa', symObjAddr: 0xF8, symBinAddr: 0x40F8, symSize: 0x20 }
+  - { offset: 0x5E78C, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x31C, symBinAddr: 0x431C, symSize: 0x44 }
+  - { offset: 0x5E7AB, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x470, symBinAddr: 0x4470, symSize: 0x64 }
+  - { offset: 0x5E7E3, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x4D4, symBinAddr: 0x44D4, symSize: 0xE0 }
+  - { offset: 0x5E8B3, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x17E8, symBinAddr: 0x57E8, symSize: 0x48 }
+  - { offset: 0x5E8C7, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x1830, symBinAddr: 0x5830, symSize: 0x24 }
+  - { offset: 0x5E8DB, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x1854, symBinAddr: 0x5854, symSize: 0x20 }
+  - { offset: 0x5E8EF, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x1874, symBinAddr: 0x5874, symSize: 0x10 }
+  - { offset: 0x5E903, size: 0x8, addend: 0x0, symName: '_$s10Foundation4UUIDVSgWOb', symObjAddr: 0x1884, symBinAddr: 0x5884, symSize: 0x48 }
+  - { offset: 0x5E917, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x1948, symBinAddr: 0x5948, symSize: 0x3C }
+  - { offset: 0x5EB19, size: 0x8, addend: 0x0, symName: '_$s12flutter_udid17FlutterUdidPluginC8register4withySo0cE9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xD8 }
+  - { offset: 0x5EB9D, size: 0x8, addend: 0x0, symName: '_$s12flutter_udid17FlutterUdidPluginCACycfC', symObjAddr: 0xD8, symBinAddr: 0x40D8, symSize: 0x20 }
+  - { offset: 0x5EBBE, size: 0x8, addend: 0x0, symName: '_$s12flutter_udid17FlutterUdidPluginC8register4withySo0cE9Registrar_p_tFZTo', symObjAddr: 0x118, symBinAddr: 0x4118, symSize: 0xEC }
+  - { offset: 0x5EC6F, size: 0x8, addend: 0x0, symName: '_$s12flutter_udid17FlutterUdidPluginC6handle_6resultySo0C10MethodCallC_yypSgctF', symObjAddr: 0x204, symBinAddr: 0x4204, symSize: 0x118 }
+  - { offset: 0x5ECFC, size: 0x8, addend: 0x0, symName: '_$s12flutter_udid17FlutterUdidPluginC6handle_6resultySo0C10MethodCallC_yypSgctFTo', symObjAddr: 0x360, symBinAddr: 0x4360, symSize: 0x74 }
+  - { offset: 0x5ED26, size: 0x8, addend: 0x0, symName: '_$s12flutter_udid17FlutterUdidPluginCACycfc', symObjAddr: 0x3D4, symBinAddr: 0x43D4, symSize: 0x30 }
+  - { offset: 0x5ED59, size: 0x8, addend: 0x0, symName: '_$s12flutter_udid17FlutterUdidPluginCACycfcTo', symObjAddr: 0x404, symBinAddr: 0x4404, symSize: 0x3C }
+  - { offset: 0x5ED8E, size: 0x8, addend: 0x0, symName: '_$s12flutter_udid17FlutterUdidPluginCfD', symObjAddr: 0x440, symBinAddr: 0x4440, symSize: 0x30 }
+  - { offset: 0x5EE73, size: 0x8, addend: 0x0, symName: '_$s12flutter_udid17FlutterUdidPluginC33getUniqueDeviceIdentifierAsString33_8EFAADC02804EEBEA0F2338C28F37008LL6resultyyypSgXE_tF015$syXlSgIeyBy_ypT7Iegn_TRyXlSgIeyBy_Tf1cn_nTf4dg_n', symObjAddr: 0x5B4, symBinAddr: 0x45B4, symSize: 0x8A8 }
+  - { offset: 0x5F0BF, size: 0x8, addend: 0x0, symName: '_$s12flutter_udid17FlutterUdidPluginC6handle_6resultySo0C10MethodCallC_yypSgctF015$syXlSgIeyBy_ypL7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ndg_n', symObjAddr: 0xE5C, symBinAddr: 0x4E5C, symSize: 0x1EC }
+  - { offset: 0x5F130, size: 0x8, addend: 0x0, symName: '_$s12flutter_udid17FlutterUdidPluginC33getUniqueDeviceIdentifierAsString33_8EFAADC02804EEBEA0F2338C28F37008LL6resultyyypSgXE_tFTf4nd_n', symObjAddr: 0x1048, symBinAddr: 0x5048, symSize: 0x778 }
+...

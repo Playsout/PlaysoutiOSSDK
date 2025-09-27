@@ -1,0 +1,56 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jasonzheng/workspace/projects/playsout_client/playsout_sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/FirebaseRemoteConfigInterop/FirebaseRemoteConfigInterop.framework/FirebaseRemoteConfigInterop'
+relocations:
+  - { offset: 0x5A7E3, size: 0x8, addend: 0x0, symName: _FirebaseRemoteConfigInteropVersionString, symObjAddr: 0x0, symBinAddr: 0x8780, symSize: 0x0 }
+  - { offset: 0x5A818, size: 0x8, addend: 0x0, symName: _FirebaseRemoteConfigInteropVersionNumber, symObjAddr: 0x40, symBinAddr: 0x87C0, symSize: 0x0 }
+  - { offset: 0x5A855, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop0bC9ConstantsC29NamespaceGoogleMobilePlatformSSvgZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x18 }
+  - { offset: 0x5A8FC, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop0bC9ConstantsCfETo', symObjAddr: 0x104, symBinAddr: 0x4104, symSize: 0x4 }
+  - { offset: 0x5A927, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop0bC9ConstantsCMa', symObjAddr: 0x108, symBinAddr: 0x4108, symSize: 0x20 }
+  - { offset: 0x5A95C, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop0bC9ConstantsC29NamespaceGoogleMobilePlatformSSvgZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x18 }
+  - { offset: 0x5A9A1, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop0bC9ConstantsC29NamespaceGoogleMobilePlatformSSvgZTo', symObjAddr: 0x18, symBinAddr: 0x4018, symSize: 0x28 }
+  - { offset: 0x5A9B5, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop0bC9ConstantsCACycfC', symObjAddr: 0x40, symBinAddr: 0x4040, symSize: 0x20 }
+  - { offset: 0x5A9C9, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop0bC9ConstantsCACycfc', symObjAddr: 0x60, symBinAddr: 0x4060, symSize: 0x34 }
+  - { offset: 0x5AA01, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop0bC9ConstantsCACycfcTo', symObjAddr: 0x94, symBinAddr: 0x4094, symSize: 0x3C }
+  - { offset: 0x5AA3C, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop0bC9ConstantsCfD', symObjAddr: 0xD0, symBinAddr: 0x40D0, symSize: 0x34 }
+  - { offset: 0x5AC9B, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentCMa', symObjAddr: 0x644, symBinAddr: 0x476C, symSize: 0x20 }
+  - { offset: 0x5ACC5, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentCfETo', symObjAddr: 0x7B8, symBinAddr: 0x48E0, symSize: 0x68 }
+  - { offset: 0x5AE1A, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateC11assignmentsShyAA17RolloutAssignmentCGvpACTk', symObjAddr: 0x9B0, symBinAddr: 0x4AD8, symSize: 0x64 }
+  - { offset: 0x5AF08, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateCfETo', symObjAddr: 0xD44, symBinAddr: 0x4E4C, symSize: 0x10 }
+  - { offset: 0x5AF8F, size: 0x8, addend: 0x0, symName: '_$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF27FirebaseRemoteConfigInterop17RolloutAssignmentC_Tg5', symObjAddr: 0xD54, symBinAddr: 0x4E5C, symSize: 0x284 }
+  - { offset: 0x5B079, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfC27FirebaseRemoteConfigInterop17RolloutAssignmentC_Tt1g5', symObjAddr: 0xFD8, symBinAddr: 0x50E0, symSize: 0x1F8 }
+  - { offset: 0x5B128, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtF27FirebaseRemoteConfigInterop17RolloutAssignmentC_Tg5', symObjAddr: 0x11D0, symBinAddr: 0x52D8, symSize: 0x184 }
+  - { offset: 0x5B1C1, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV4copyyyF27FirebaseRemoteConfigInterop17RolloutAssignmentC_Tg5', symObjAddr: 0x1354, symBinAddr: 0x545C, symSize: 0x1A0 }
+  - { offset: 0x5B23E, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV13copyAndResize8capacityySi_tF27FirebaseRemoteConfigInterop17RolloutAssignmentC_Tg5', symObjAddr: 0x14F4, symBinAddr: 0x55FC, symSize: 0x274 }
+  - { offset: 0x5B2F7, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV6resize8capacityySi_tF27FirebaseRemoteConfigInterop17RolloutAssignmentC_Tg5', symObjAddr: 0x1768, symBinAddr: 0x5870, symSize: 0x298 }
+  - { offset: 0x5B3C2, size: 0x8, addend: 0x0, symName: '_$ss10_NativeSetV16_unsafeInsertNewyyxnF27FirebaseRemoteConfigInterop17RolloutAssignmentC_Tg5', symObjAddr: 0x1A00, symBinAddr: 0x5B08, symSize: 0x80 }
+  - { offset: 0x5B41E, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiF27FirebaseRemoteConfigInterop17RolloutAssignmentC_Tg5', symObjAddr: 0x1A80, symBinAddr: 0x5B88, symSize: 0x1A4 }
+  - { offset: 0x5B4B3, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateCMa', symObjAddr: 0x1C24, symBinAddr: 0x5D2C, symSize: 0x20 }
+  - { offset: 0x5B4C7, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentCSo8NSObjectCSH10ObjectiveCWl', symObjAddr: 0x205C, symBinAddr: 0x6164, symSize: 0x40 }
+  - { offset: 0x5B4DB, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x209C, symBinAddr: 0x61A4, symSize: 0x44 }
+  - { offset: 0x5B4F6, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentC9rolloutIdSSvM', symObjAddr: 0x30, symBinAddr: 0x4158, symSize: 0x40 }
+  - { offset: 0x5B51B, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentC9variantIdSSvM', symObjAddr: 0xA0, symBinAddr: 0x41C8, symSize: 0x40 }
+  - { offset: 0x5B63C, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentC15templateVersions5Int64VvgTo', symObjAddr: 0xE0, symBinAddr: 0x4208, symSize: 0x44 }
+  - { offset: 0x5B66F, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentC15templateVersions5Int64Vvg', symObjAddr: 0x124, symBinAddr: 0x424C, symSize: 0x40 }
+  - { offset: 0x5B6B3, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentC15templateVersions5Int64VvsTo', symObjAddr: 0x164, symBinAddr: 0x428C, symSize: 0x50 }
+  - { offset: 0x5B6EE, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentC15templateVersions5Int64Vvs', symObjAddr: 0x1B4, symBinAddr: 0x42DC, symSize: 0x4C }
+  - { offset: 0x5B717, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentC15templateVersions5Int64VvM', symObjAddr: 0x200, symBinAddr: 0x4328, symSize: 0x40 }
+  - { offset: 0x5B73C, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentC12parameterKeySSvM', symObjAddr: 0x270, symBinAddr: 0x4398, symSize: 0x40 }
+  - { offset: 0x5B761, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentC14parameterValueSSvM', symObjAddr: 0x4B8, symBinAddr: 0x45E0, symSize: 0x40 }
+  - { offset: 0x5B7E1, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentC9rolloutId07variantH015templateVersion12parameterKey0L5ValueACSS_SSs5Int64VS2StcfC', symObjAddr: 0x4F8, symBinAddr: 0x4620, symSize: 0xCC }
+  - { offset: 0x5B846, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentC9rolloutId07variantH015templateVersion12parameterKey0L5ValueACSS_SSs5Int64VS2Stcfc', symObjAddr: 0x5C4, symBinAddr: 0x46EC, symSize: 0x80 }
+  - { offset: 0x5B8D5, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentC9rolloutId07variantH015templateVersion12parameterKey0L5ValueACSS_SSs5Int64VS2StcfcTo', symObjAddr: 0x664, symBinAddr: 0x478C, symSize: 0xF0 }
+  - { offset: 0x5B93A, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentCACycfc', symObjAddr: 0x754, symBinAddr: 0x487C, symSize: 0x2C }
+  - { offset: 0x5B993, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop17RolloutAssignmentCACycfcTo', symObjAddr: 0x780, symBinAddr: 0x48A8, symSize: 0x2C }
+  - { offset: 0x5BA0B, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateC11assignmentsShyAA17RolloutAssignmentCGvgTo', symObjAddr: 0x820, symBinAddr: 0x4948, symSize: 0x80 }
+  - { offset: 0x5BA3E, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateC11assignmentsShyAA17RolloutAssignmentCGvg', symObjAddr: 0x8A0, symBinAddr: 0x49C8, symSize: 0x44 }
+  - { offset: 0x5BA82, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateC11assignmentsShyAA17RolloutAssignmentCGvsTo', symObjAddr: 0x8E4, symBinAddr: 0x4A0C, symSize: 0x78 }
+  - { offset: 0x5BABD, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateC11assignmentsShyAA17RolloutAssignmentCGvs', symObjAddr: 0x95C, symBinAddr: 0x4A84, symSize: 0x54 }
+  - { offset: 0x5BAE6, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateC11assignmentsShyAA17RolloutAssignmentCGvM', symObjAddr: 0xA14, symBinAddr: 0x4B3C, symSize: 0x40 }
+  - { offset: 0x5BB0B, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateC11assignmentsShyAA17RolloutAssignmentCGvM.resume.0', symObjAddr: 0xA54, symBinAddr: 0x4B7C, symSize: 0x4 }
+  - { offset: 0x5BB32, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateC14assignmentListACSayAA17RolloutAssignmentCG_tcfC', symObjAddr: 0xA58, symBinAddr: 0x4B80, symSize: 0x30 }
+  - { offset: 0x5BB53, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateC14assignmentListACSayAA17RolloutAssignmentCG_tcfc', symObjAddr: 0xA88, symBinAddr: 0x4BB0, symSize: 0x1D4 }
+  - { offset: 0x5BCF8, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateC14assignmentListACSayAA17RolloutAssignmentCG_tcfcTo', symObjAddr: 0xC5C, symBinAddr: 0x4D84, symSize: 0x34 }
+  - { offset: 0x5BD0C, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateCACycfc', symObjAddr: 0xCB0, symBinAddr: 0x4DB8, symSize: 0x2C }
+  - { offset: 0x5BD65, size: 0x8, addend: 0x0, symName: '_$s27FirebaseRemoteConfigInterop13RolloutsStateCACycfcTo', symObjAddr: 0xCDC, symBinAddr: 0x4DE4, symSize: 0x2C }
+...

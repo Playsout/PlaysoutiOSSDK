@@ -1,0 +1,33 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name flutter_webgl
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import Flutter
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import flutter_webgl
+@_hasMissingDesignatedInitializers @objc public class FlutterAngleOSPlugin : ObjectiveC.NSObject {
+  public var textureId: Swift.Int64
+  public func textureFrameAvailable(result: @escaping Flutter.FlutterResult)
+  public func createTexture(width: Swift.Int, height: Swift.Int, result: @escaping Flutter.FlutterResult)
+  public func resizeTexture(width: Swift.Int, height: Swift.Int, result: @escaping Flutter.FlutterResult)
+  public func disposeTexture()
+  public func getIOSurfaceHandle(result: @escaping Flutter.FlutterResult)
+  @objc deinit
+}
+extension flutter_webgl.FlutterAngleOSPlugin : Flutter.FlutterTexture {
+  @objc dynamic public func copyPixelBuffer() -> Swift.Unmanaged<CoreVideo.CVPixelBuffer>?
+}
+@_hasMissingDesignatedInitializers @objc public class FlutterAnglePlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class FlutterWebglPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc deinit
+}
