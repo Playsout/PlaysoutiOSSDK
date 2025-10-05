@@ -1,0 +1,11 @@
+framework module flutter_webgl {
+  umbrella header "flutter_webgl-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_webgl.Swift {
+  header "flutter_webgl-Swift.h"
+  requires objc
+}

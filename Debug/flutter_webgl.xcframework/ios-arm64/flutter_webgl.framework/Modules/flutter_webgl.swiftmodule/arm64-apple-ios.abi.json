@@ -1,0 +1,1011 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "flutter_webgl",
+    "printedName": "flutter_webgl",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_webgl"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterAngleOSPlugin",
+        "printedName": "FlutterAngleOSPlugin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "textureId",
+            "printedName": "textureId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13flutter_webgl20FlutterAngleOSPluginC9textureIds5Int64Vvp",
+            "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginC9textureIds5Int64Vvp",
+            "moduleName": "flutter_webgl",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13flutter_webgl20FlutterAngleOSPluginC9textureIds5Int64Vvg",
+                "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginC9textureIds5Int64Vvg",
+                "moduleName": "flutter_webgl",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13flutter_webgl20FlutterAngleOSPluginC9textureIds5Int64Vvs",
+                "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginC9textureIds5Int64Vvs",
+                "moduleName": "flutter_webgl",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13flutter_webgl20FlutterAngleOSPluginC9textureIds5Int64VvM",
+                "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginC9textureIds5Int64VvM",
+                "moduleName": "flutter_webgl",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(textureRegistry:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterAngleOSPlugin",
+                "printedName": "flutter_webgl.FlutterAngleOSPlugin",
+                "usr": "c:@M@flutter_webgl@objc(cs)FlutterAngleOSPlugin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Flutter.FlutterTextureRegistry)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterTextureRegistry",
+                    "printedName": "any Flutter.FlutterTextureRegistry",
+                    "usr": "c:objc(pl)FlutterTextureRegistry"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13flutter_webgl20FlutterAngleOSPluginC15textureRegistryACSo0c7TextureG0_pSg_tcfc",
+            "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginC15textureRegistryACSo0c7TextureG0_pSg_tcfc",
+            "moduleName": "flutter_webgl",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "textureFrameAvailable",
+            "printedName": "textureFrameAvailable(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13flutter_webgl20FlutterAngleOSPluginC21textureFrameAvailable6resultyyypSgc_tF",
+            "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginC21textureFrameAvailable6resultyyypSgc_tF",
+            "moduleName": "flutter_webgl",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createTexture",
+            "printedName": "createTexture(width:height:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13flutter_webgl20FlutterAngleOSPluginC13createTexture5width6height6resultySi_SiyypSgctF",
+            "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginC13createTexture5width6height6resultySi_SiyypSgctF",
+            "moduleName": "flutter_webgl",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resizeTexture",
+            "printedName": "resizeTexture(width:height:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13flutter_webgl20FlutterAngleOSPluginC13resizeTexture5width6height6resultySi_SiyypSgctF",
+            "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginC13resizeTexture5width6height6resultySi_SiyypSgctF",
+            "moduleName": "flutter_webgl",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disposeTexture",
+            "printedName": "disposeTexture()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13flutter_webgl20FlutterAngleOSPluginC14disposeTextureyyF",
+            "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginC14disposeTextureyyF",
+            "moduleName": "flutter_webgl",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIOSurfaceHandle",
+            "printedName": "getIOSurfaceHandle(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13flutter_webgl20FlutterAngleOSPluginC18getIOSurfaceHandle6resultyyypSgc_tF",
+            "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginC18getIOSurfaceHandle6resultyyypSgc_tF",
+            "moduleName": "flutter_webgl",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterAngleOSPlugin",
+                "printedName": "flutter_webgl.FlutterAngleOSPlugin",
+                "usr": "c:@M@flutter_webgl@objc(cs)FlutterAngleOSPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_webgl@objc(cs)FlutterAngleOSPlugin(im)init",
+            "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginCACycfc",
+            "moduleName": "flutter_webgl",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "copyPixelBuffer",
+            "printedName": "copyPixelBuffer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Unmanaged<CoreVideo.CVBuffer>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Unmanaged",
+                    "printedName": "Swift.Unmanaged<CoreVideo.CVBuffer>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVBuffer",
+                        "printedName": "CoreVideo.CVBuffer",
+                        "usr": "c:@T@CVBufferRef"
+                      }
+                    ],
+                    "usr": "s:s9UnmanagedV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@flutter_webgl@objc(cs)FlutterAngleOSPlugin(im)copyPixelBuffer",
+            "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginC15copyPixelBuffers9UnmanagedVySo11CVBufferRefaGSgyF",
+            "moduleName": "flutter_webgl",
+            "isOpen": true,
+            "objc_name": "copyPixelBuffer",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flutter_webgl@objc(cs)FlutterAngleOSPlugin",
+        "mangledName": "$s13flutter_webgl20FlutterAngleOSPluginC",
+        "moduleName": "flutter_webgl",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_webgl"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterAnglePlugin",
+        "printedName": "FlutterAnglePlugin",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(textureRegistry:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterAnglePlugin",
+                "printedName": "flutter_webgl.FlutterAnglePlugin",
+                "usr": "c:@M@flutter_webgl@objc(cs)FlutterAnglePlugin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterTextureRegistry",
+                "printedName": "any Flutter.FlutterTextureRegistry",
+                "usr": "c:objc(pl)FlutterTextureRegistry"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13flutter_webgl18FlutterAnglePluginC15textureRegistryACSo0c7TextureG0_p_tcfc",
+            "mangledName": "$s13flutter_webgl18FlutterAnglePluginC15textureRegistryACSo0c7TextureG0_p_tcfc",
+            "moduleName": "flutter_webgl",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_webgl@objc(cs)FlutterAnglePlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s13flutter_webgl18FlutterAnglePluginC8register4withySo0cE9Registrar_p_tFZ",
+            "moduleName": "flutter_webgl",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_webgl@objc(cs)FlutterAnglePlugin(im)handleMethodCall:result:",
+            "mangledName": "$s13flutter_webgl18FlutterAnglePluginC6handle_6resultySo0C10MethodCallC_yypSgctF",
+            "moduleName": "flutter_webgl",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterAnglePlugin",
+                "printedName": "flutter_webgl.FlutterAnglePlugin",
+                "usr": "c:@M@flutter_webgl@objc(cs)FlutterAnglePlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_webgl@objc(cs)FlutterAnglePlugin(im)init",
+            "mangledName": "$s13flutter_webgl18FlutterAnglePluginCACycfc",
+            "moduleName": "flutter_webgl",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flutter_webgl@objc(cs)FlutterAnglePlugin",
+        "mangledName": "$s13flutter_webgl18FlutterAnglePluginC",
+        "moduleName": "flutter_webgl",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "flutter_webgl"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "flutter_webgl"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterWebglPlugin",
+        "printedName": "FlutterWebglPlugin",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(textureRegistry:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterWebglPlugin",
+                "printedName": "flutter_webgl.FlutterWebglPlugin",
+                "usr": "c:@M@flutter_webgl@objc(cs)FlutterWebglPlugin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterTextureRegistry",
+                "printedName": "any Flutter.FlutterTextureRegistry",
+                "usr": "c:objc(pl)FlutterTextureRegistry"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13flutter_webgl18FlutterWebglPluginC15textureRegistryACSo0c7TextureG0_p_tcfc",
+            "mangledName": "$s13flutter_webgl18FlutterWebglPluginC15textureRegistryACSo0c7TextureG0_p_tcfc",
+            "moduleName": "flutter_webgl",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_webgl@objc(cs)FlutterWebglPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s13flutter_webgl18FlutterWebglPluginC8register4withySo0cE9Registrar_p_tFZ",
+            "moduleName": "flutter_webgl",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@flutter_webgl@objc(cs)FlutterWebglPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s13flutter_webgl18FlutterWebglPluginC6handle_6resultySo0C10MethodCallC_yypSgctF",
+            "moduleName": "flutter_webgl",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterWebglPlugin",
+                "printedName": "flutter_webgl.FlutterWebglPlugin",
+                "usr": "c:@M@flutter_webgl@objc(cs)FlutterWebglPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@flutter_webgl@objc(cs)FlutterWebglPlugin(im)init",
+            "mangledName": "$s13flutter_webgl18FlutterWebglPluginCACycfc",
+            "moduleName": "flutter_webgl",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@flutter_webgl@objc(cs)FlutterWebglPlugin",
+        "mangledName": "$s13flutter_webgl18FlutterWebglPluginC",
+        "moduleName": "flutter_webgl",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jasonzheng\/workspace\/projects\/playsout_client\/libs\/flutter_webgl\/ios\/Classes\/FlutterAngleOSPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 308,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jasonzheng\/workspace\/projects\/playsout_client\/libs\/flutter_webgl\/ios\/Classes\/FlutterAngleOSPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 338,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jasonzheng\/workspace\/projects\/playsout_client\/libs\/flutter_webgl\/ios\/Classes\/FlutterAngleOSPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 373,
+      "length": 2,
+      "value": "-1"
+    }
+  ]
+}

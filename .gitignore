@@ -15,7 +15,7 @@ xcuserdata/
 *.xccheckout
 *.moved-aside
 DerivedData
-*.hmap
+*.map
 *.ipa
 
 # Bundler

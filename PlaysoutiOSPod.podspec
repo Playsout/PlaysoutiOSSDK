@@ -30,6 +30,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '16.0'
 
+  s. pod_target_xcconfig = {
+    'DEFINES_MODULE' => 'YES',
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64',
+    'FRAMEWORK_SEARCH_PATHS' => [
+      '$(inherited)',
+      '${PODS_ROOT}/../../PlaysoutiOSPod/ios_frameworks'
+    ],
+  }
+  s.swift_version = '5.0'
+
   #s.source_files = 'PlaysoutiOSPod/Classes/**/*'
 
   s.framework  = "Foundation"
