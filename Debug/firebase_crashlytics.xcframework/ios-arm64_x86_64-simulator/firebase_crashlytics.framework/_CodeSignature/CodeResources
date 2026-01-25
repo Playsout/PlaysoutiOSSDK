@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yE5BJkOqsp6rSrZ7hFtSiRUTHUY=
+		5qJzVYD59qYmmXMnhr1yfnZT/Co=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -33,10 +33,6 @@
 	<dict>
 		<key>Headers/Crashlytics_Platform.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uXs9vOFDZjnEI5GOwPNwE2q5EPc=
-			</data>
 			<key>hash2</key>
 			<data>
 			NY1NtvYqT7IzoHNAMQxWeUCWYawsGOfVDE/lkCLIM/s=
@@ -44,10 +40,6 @@
 		</dict>
 		<key>Headers/ExceptionModel_Platform.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6StSko0zhjZrNyoAvoa64UPWXhc=
-			</data>
 			<key>hash2</key>
 			<data>
 			h/RhEAy5IRfXp9hfRaensf+Gc50BpG35ltr4hE7aLUA=
@@ -55,10 +47,6 @@
 		</dict>
 		<key>Headers/FLTFirebaseCrashlyticsPlugin.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VXfXL/r5NJjJxJ4fgSFKJzB4clE=
-			</data>
 			<key>hash2</key>
 			<data>
 			gIotSnV8lRknyC907Sa1kaJBbAzttobhkK5huo4rTqQ=
@@ -66,10 +54,6 @@
 		</dict>
 		<key>Headers/firebase_crashlytics-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fPp5MyySsxnNM7CSp/JfuNRuoPY=
-			</data>
 			<key>hash2</key>
 			<data>
 			xqzRo9Y2D3piJJrreMqtyvr/HIRgC7Tt0aLV5VmeIoQ=
@@ -77,10 +61,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iur12Jybix19OIVY61+UwrNQXG8=
-			</data>
 			<key>hash2</key>
 			<data>
 			QzJDI0Ym6/xiiVtRLkyX4kgiLK6NUNGRtDbk7xwY0Ts=
