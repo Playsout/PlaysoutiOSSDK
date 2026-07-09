@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FirebaseSessions
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FirebaseSessions
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 @_exported import FirebaseSessions
 import Foundation
 import Promises
@@ -35,11 +35,13 @@ extension Swift.UnsafeMutablePointer : Swift.CustomStringConvertible where Point
     get
   }
 }
+#if compiler(>=5.3) && $NonescapableTypes
 extension Swift.Optional : Swift.CustomStringConvertible where Wrapped == Swift.UnsafeMutablePointer<nanopb.pb_bytes_array_s> {
   public var description: Swift.String {
     get
   }
 }
+#endif
 @_inheritsConvenienceInitializers @objc(FIRSessionsDependencies) public class SessionsDependencies : ObjectiveC.NSObject {
   @objc public static func addDependency(name: FirebaseSessions.SessionsSubscriberName)
   @objc override dynamic public init()
@@ -48,24 +50,28 @@ extension Swift.Optional : Swift.CustomStringConvertible where Wrapped == Swift.
 @objc(FIRSessionsProvider) public protocol SessionsProvider {
   @objc func register(subscriber: any FirebaseSessions.SessionsSubscriber)
 }
-@objc(FIRSessionsSubscriber) public protocol SessionsSubscriber {
+@objc(FIRSessionsSubscriber) public protocol SessionsSubscriber : Swift.Sendable {
   @objc func onSessionChanged(_ session: FirebaseSessions.SessionDetails)
   @objc var isDataCollectionEnabled: Swift.Bool { get }
   @objc var sessionsSubscriberName: FirebaseSessions.SessionsSubscriberName { get }
 }
-@objc(FIRSessionDetails) public class SessionDetails : ObjectiveC.NSObject {
-  @objc public var sessionId: Swift.String?
+@objc(FIRSessionDetails) final public class SessionDetails : ObjectiveC.NSObject, Swift.Sendable {
+  @objc final public let sessionId: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(sessionId: Swift.String?)
+  #endif
   @objc deinit
 }
-@objc(FIRSessionsSubscriberName) public enum SessionsSubscriberName : Swift.Int, Swift.CustomStringConvertible {
+@objc(FIRSessionsSubscriberName) public enum SessionsSubscriberName : Swift.Int, Swift.CustomStringConvertible, Swift.Sendable {
   case Unknown
   case Crashlytics
   case Performance
   public var description: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get

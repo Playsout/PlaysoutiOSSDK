@@ -212,65 +212,65 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1757,
+      "offset": 1735,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1826,
+      "offset": 1804,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 1907,
+      "offset": 1885,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 2060,
+      "offset": 2038,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 2125,
+      "offset": 2103,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 2206,
+      "offset": 2184,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 2275,
+      "offset": 2253,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/messages.g.swift",
       "kind": "StringLiteral",
-      "offset": 4974,
+      "offset": 4952,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.4\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLaunchSession.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/url_launcher_ios-6.3.6\/ios\/url_launcher_ios\/Sources\/url_launcher_ios\/URLLaunchSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 559,
+      "offset": 537,
       "length": 5,
       "value": "false"
     }

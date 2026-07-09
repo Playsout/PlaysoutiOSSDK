@@ -292,10 +292,6 @@
             "mangledName": "$s24in_app_purchase_storekit19InAppPurchasePluginC18updateListenerTaskScTyyts5NeverOGvp",
             "moduleName": "in_app_purchase_storekit",
             "isOpen": true,
-            "intro_iOS": "13.0",
-            "declAttributes": [
-              "Available"
-            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -366,10 +362,6 @@
             "mangledName": "$s24in_app_purchase_storekit19InAppPurchasePluginC017setListenerTaskAsK04taskyScTyyts5NeverOG_tF",
             "moduleName": "in_app_purchase_storekit",
             "isOpen": true,
-            "intro_iOS": "13.0",
-            "declAttributes": [
-              "Available"
-            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -2182,6 +2174,68 @@
           },
           {
             "kind": "Function",
+            "name": "unfinishedTransactions",
+            "printedName": "unfinishedTransactions(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[in_app_purchase_storekit.SK2TransactionMessage], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[in_app_purchase_storekit.SK2TransactionMessage], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[in_app_purchase_storekit.SK2TransactionMessage]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SK2TransactionMessage",
+                            "printedName": "in_app_purchase_storekit.SK2TransactionMessage",
+                            "usr": "s:24in_app_purchase_storekit21SK2TransactionMessageV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24in_app_purchase_storekit19InAppPurchasePluginC22unfinishedTransactions10completionyys6ResultOySayAA21SK2TransactionMessageVGs5Error_pGc_tF",
+            "mangledName": "$s24in_app_purchase_storekit19InAppPurchasePluginC22unfinishedTransactions10completionyys6ResultOySayAA21SK2TransactionMessageVGs5Error_pGc_tF",
+            "moduleName": "in_app_purchase_storekit",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "restorePurchases",
             "printedName": "restorePurchases(completion:)",
             "children": [
@@ -2941,13 +2995,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
       {
         "kind": "Function",
-        "name": "deepEqualssk2_pigeon",
-        "printedName": "deepEqualssk2_pigeon(_:_:)",
+        "name": "deepEqualsStoreKit2Messages",
+        "printedName": "deepEqualsStoreKit2Messages(_:_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -2983,18 +3044,15 @@
           }
         ],
         "declKind": "Func",
-        "usr": "s:24in_app_purchase_storekit20deepEqualssk2_pigeonySbypSg_ACtF",
-        "mangledName": "$s24in_app_purchase_storekit20deepEqualssk2_pigeonySbypSg_ACtF",
+        "usr": "s:24in_app_purchase_storekit27deepEqualsStoreKit2MessagesySbypSg_ACtF",
+        "mangledName": "$s24in_app_purchase_storekit27deepEqualsStoreKit2MessagesySbypSg_ACtF",
         "moduleName": "in_app_purchase_storekit",
-        "declAttributes": [
-          "RawDocComment"
-        ],
         "funcSelfKind": "NonMutating"
       },
       {
         "kind": "Function",
-        "name": "deepHashsk2_pigeon",
-        "printedName": "deepHashsk2_pigeon(value:hasher:)",
+        "name": "deepHashStoreKit2Messages",
+        "printedName": "deepHashStoreKit2Messages(value:hasher:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -3023,12 +3081,9 @@
           }
         ],
         "declKind": "Func",
-        "usr": "s:24in_app_purchase_storekit18deepHashsk2_pigeon5value6hasheryypSg_s6HasherVztF",
-        "mangledName": "$s24in_app_purchase_storekit18deepHashsk2_pigeon5value6hasheryypSg_s6HasherVztF",
+        "usr": "s:24in_app_purchase_storekit25deepHashStoreKit2Messages5value6hasheryypSg_s6HasherVztF",
+        "mangledName": "$s24in_app_purchase_storekit25deepHashStoreKit2Messages5value6hasheryypSg_s6HasherVztF",
         "moduleName": "in_app_purchase_storekit",
-        "declAttributes": [
-          "RawDocComment"
-        ],
         "funcSelfKind": "NonMutating"
       },
       {
@@ -4224,6 +4279,44 @@
           },
           {
             "kind": "Var",
+            "name": "unverified",
+            "printedName": "unverified",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(in_app_purchase_storekit.SK2ProductPurchaseResultMessage.Type) -> in_app_purchase_storekit.SK2ProductPurchaseResultMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SK2ProductPurchaseResultMessage",
+                    "printedName": "in_app_purchase_storekit.SK2ProductPurchaseResultMessage",
+                    "usr": "s:24in_app_purchase_storekit31SK2ProductPurchaseResultMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "in_app_purchase_storekit.SK2ProductPurchaseResultMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SK2ProductPurchaseResultMessage",
+                        "printedName": "in_app_purchase_storekit.SK2ProductPurchaseResultMessage",
+                        "usr": "s:24in_app_purchase_storekit31SK2ProductPurchaseResultMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24in_app_purchase_storekit31SK2ProductPurchaseResultMessageO10unverifiedyA2CmF",
+            "mangledName": "$s24in_app_purchase_storekit31SK2ProductPurchaseResultMessageO10unverifiedyA2CmF",
+            "moduleName": "in_app_purchase_storekit",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
             "name": "userCancelled",
             "printedName": "userCancelled",
             "children": [
@@ -4258,7 +4351,7 @@
             "usr": "s:24in_app_purchase_storekit31SK2ProductPurchaseResultMessageO13userCancelledyA2CmF",
             "mangledName": "$s24in_app_purchase_storekit31SK2ProductPurchaseResultMessageO13userCancelledyA2CmF",
             "moduleName": "in_app_purchase_storekit",
-            "fixedbinaryorder": 1
+            "fixedbinaryorder": 2
           },
           {
             "kind": "Var",
@@ -4296,7 +4389,7 @@
             "usr": "s:24in_app_purchase_storekit31SK2ProductPurchaseResultMessageO7pendingyA2CmF",
             "mangledName": "$s24in_app_purchase_storekit31SK2ProductPurchaseResultMessageO7pendingyA2CmF",
             "moduleName": "in_app_purchase_storekit",
-            "fixedbinaryorder": 2
+            "fixedbinaryorder": 3
           },
           {
             "kind": "Constructor",
@@ -5124,6 +5217,37 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2SubscriptionOfferMessage",
+                "printedName": "in_app_purchase_storekit.SK2SubscriptionOfferMessage",
+                "usr": "s:24in_app_purchase_storekit27SK2SubscriptionOfferMessageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2SubscriptionOfferMessage",
+                "printedName": "in_app_purchase_storekit.SK2SubscriptionOfferMessage",
+                "usr": "s:24in_app_purchase_storekit27SK2SubscriptionOfferMessageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24in_app_purchase_storekit27SK2SubscriptionOfferMessageV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24in_app_purchase_storekit27SK2SubscriptionOfferMessageV2eeoiySbAC_ACtFZ",
+            "moduleName": "in_app_purchase_storekit",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "hash",
             "printedName": "hash(into:)",
             "children": [
@@ -5248,38 +5372,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2SubscriptionOfferMessage",
-                "printedName": "in_app_purchase_storekit.SK2SubscriptionOfferMessage",
-                "usr": "s:24in_app_purchase_storekit27SK2SubscriptionOfferMessageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2SubscriptionOfferMessage",
-                "printedName": "in_app_purchase_storekit.SK2SubscriptionOfferMessage",
-                "usr": "s:24in_app_purchase_storekit27SK2SubscriptionOfferMessageV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24in_app_purchase_storekit27SK2SubscriptionOfferMessageV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s24in_app_purchase_storekit27SK2SubscriptionOfferMessageV2eeoiySbAC_ACtFZ",
-            "moduleName": "in_app_purchase_storekit",
-            "static": true,
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -5313,17 +5405,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -5608,6 +5700,37 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2SubscriptionPeriodMessage",
+                "printedName": "in_app_purchase_storekit.SK2SubscriptionPeriodMessage",
+                "usr": "s:24in_app_purchase_storekit28SK2SubscriptionPeriodMessageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2SubscriptionPeriodMessage",
+                "printedName": "in_app_purchase_storekit.SK2SubscriptionPeriodMessage",
+                "usr": "s:24in_app_purchase_storekit28SK2SubscriptionPeriodMessageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24in_app_purchase_storekit28SK2SubscriptionPeriodMessageV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24in_app_purchase_storekit28SK2SubscriptionPeriodMessageV2eeoiySbAC_ACtFZ",
+            "moduleName": "in_app_purchase_storekit",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "hash",
             "printedName": "hash(into:)",
             "children": [
@@ -5699,38 +5822,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2SubscriptionPeriodMessage",
-                "printedName": "in_app_purchase_storekit.SK2SubscriptionPeriodMessage",
-                "usr": "s:24in_app_purchase_storekit28SK2SubscriptionPeriodMessageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2SubscriptionPeriodMessage",
-                "printedName": "in_app_purchase_storekit.SK2SubscriptionPeriodMessage",
-                "usr": "s:24in_app_purchase_storekit28SK2SubscriptionPeriodMessageV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24in_app_purchase_storekit28SK2SubscriptionPeriodMessageV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s24in_app_purchase_storekit28SK2SubscriptionPeriodMessageV2eeoiySbAC_ACtFZ",
-            "moduleName": "in_app_purchase_storekit",
-            "static": true,
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -5764,6 +5855,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -5775,13 +5873,6 @@
             "printedName": "BitwiseCopyable",
             "usr": "s:s15BitwiseCopyableP",
             "mangledName": "$ss15BitwiseCopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           }
         ]
       },
@@ -6185,6 +6276,37 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2SubscriptionInfoMessage",
+                "printedName": "in_app_purchase_storekit.SK2SubscriptionInfoMessage",
+                "usr": "s:24in_app_purchase_storekit26SK2SubscriptionInfoMessageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2SubscriptionInfoMessage",
+                "printedName": "in_app_purchase_storekit.SK2SubscriptionInfoMessage",
+                "usr": "s:24in_app_purchase_storekit26SK2SubscriptionInfoMessageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24in_app_purchase_storekit26SK2SubscriptionInfoMessageV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24in_app_purchase_storekit26SK2SubscriptionInfoMessageV2eeoiySbAC_ACtFZ",
+            "moduleName": "in_app_purchase_storekit",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "hash",
             "printedName": "hash(into:)",
             "children": [
@@ -6290,38 +6412,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2SubscriptionInfoMessage",
-                "printedName": "in_app_purchase_storekit.SK2SubscriptionInfoMessage",
-                "usr": "s:24in_app_purchase_storekit26SK2SubscriptionInfoMessageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2SubscriptionInfoMessage",
-                "printedName": "in_app_purchase_storekit.SK2SubscriptionInfoMessage",
-                "usr": "s:24in_app_purchase_storekit26SK2SubscriptionInfoMessageV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24in_app_purchase_storekit26SK2SubscriptionInfoMessageV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s24in_app_purchase_storekit26SK2SubscriptionInfoMessageV2eeoiySbAC_ACtFZ",
-            "moduleName": "in_app_purchase_storekit",
-            "static": true,
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -6355,17 +6445,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -7245,6 +7335,37 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2ProductMessage",
+                "printedName": "in_app_purchase_storekit.SK2ProductMessage",
+                "usr": "s:24in_app_purchase_storekit17SK2ProductMessageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2ProductMessage",
+                "printedName": "in_app_purchase_storekit.SK2ProductMessage",
+                "usr": "s:24in_app_purchase_storekit17SK2ProductMessageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24in_app_purchase_storekit17SK2ProductMessageV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24in_app_purchase_storekit17SK2ProductMessageV2eeoiySbAC_ACtFZ",
+            "moduleName": "in_app_purchase_storekit",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "hash",
             "printedName": "hash(into:)",
             "children": [
@@ -7381,38 +7502,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2ProductMessage",
-                "printedName": "in_app_purchase_storekit.SK2ProductMessage",
-                "usr": "s:24in_app_purchase_storekit17SK2ProductMessageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2ProductMessage",
-                "printedName": "in_app_purchase_storekit.SK2ProductMessage",
-                "usr": "s:24in_app_purchase_storekit17SK2ProductMessageV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24in_app_purchase_storekit17SK2ProductMessageV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s24in_app_purchase_storekit17SK2ProductMessageV2eeoiySbAC_ACtFZ",
-            "moduleName": "in_app_purchase_storekit",
-            "static": true,
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -7446,17 +7535,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -7739,6 +7828,37 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2PriceLocaleMessage",
+                "printedName": "in_app_purchase_storekit.SK2PriceLocaleMessage",
+                "usr": "s:24in_app_purchase_storekit21SK2PriceLocaleMessageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2PriceLocaleMessage",
+                "printedName": "in_app_purchase_storekit.SK2PriceLocaleMessage",
+                "usr": "s:24in_app_purchase_storekit21SK2PriceLocaleMessageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24in_app_purchase_storekit21SK2PriceLocaleMessageV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24in_app_purchase_storekit21SK2PriceLocaleMessageV2eeoiySbAC_ACtFZ",
+            "moduleName": "in_app_purchase_storekit",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "hash",
             "printedName": "hash(into:)",
             "children": [
@@ -7830,38 +7950,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2PriceLocaleMessage",
-                "printedName": "in_app_purchase_storekit.SK2PriceLocaleMessage",
-                "usr": "s:24in_app_purchase_storekit21SK2PriceLocaleMessageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2PriceLocaleMessage",
-                "printedName": "in_app_purchase_storekit.SK2PriceLocaleMessage",
-                "usr": "s:24in_app_purchase_storekit21SK2PriceLocaleMessageV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24in_app_purchase_storekit21SK2PriceLocaleMessageV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s24in_app_purchase_storekit21SK2PriceLocaleMessageV2eeoiySbAC_ACtFZ",
-            "moduleName": "in_app_purchase_storekit",
-            "static": true,
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -7895,17 +7983,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -8376,6 +8464,37 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2SubscriptionOfferSignatureMessage",
+                "printedName": "in_app_purchase_storekit.SK2SubscriptionOfferSignatureMessage",
+                "usr": "s:24in_app_purchase_storekit36SK2SubscriptionOfferSignatureMessageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2SubscriptionOfferSignatureMessage",
+                "printedName": "in_app_purchase_storekit.SK2SubscriptionOfferSignatureMessage",
+                "usr": "s:24in_app_purchase_storekit36SK2SubscriptionOfferSignatureMessageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24in_app_purchase_storekit36SK2SubscriptionOfferSignatureMessageV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24in_app_purchase_storekit36SK2SubscriptionOfferSignatureMessageV2eeoiySbAC_ACtFZ",
+            "moduleName": "in_app_purchase_storekit",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "hash",
             "printedName": "hash(into:)",
             "children": [
@@ -8479,38 +8598,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2SubscriptionOfferSignatureMessage",
-                "printedName": "in_app_purchase_storekit.SK2SubscriptionOfferSignatureMessage",
-                "usr": "s:24in_app_purchase_storekit36SK2SubscriptionOfferSignatureMessageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2SubscriptionOfferSignatureMessage",
-                "printedName": "in_app_purchase_storekit.SK2SubscriptionOfferSignatureMessage",
-                "usr": "s:24in_app_purchase_storekit36SK2SubscriptionOfferSignatureMessageV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24in_app_purchase_storekit36SK2SubscriptionOfferSignatureMessageV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s24in_app_purchase_storekit36SK2SubscriptionOfferSignatureMessageV2eeoiySbAC_ACtFZ",
-            "moduleName": "in_app_purchase_storekit",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Var",
@@ -8960,6 +9047,37 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2SubscriptionOfferPurchaseMessage",
+                "printedName": "in_app_purchase_storekit.SK2SubscriptionOfferPurchaseMessage",
+                "usr": "s:24in_app_purchase_storekit35SK2SubscriptionOfferPurchaseMessageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2SubscriptionOfferPurchaseMessage",
+                "printedName": "in_app_purchase_storekit.SK2SubscriptionOfferPurchaseMessage",
+                "usr": "s:24in_app_purchase_storekit35SK2SubscriptionOfferPurchaseMessageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24in_app_purchase_storekit35SK2SubscriptionOfferPurchaseMessageV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24in_app_purchase_storekit35SK2SubscriptionOfferPurchaseMessageV2eeoiySbAC_ACtFZ",
+            "moduleName": "in_app_purchase_storekit",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "hash",
             "printedName": "hash(into:)",
             "children": [
@@ -9051,38 +9169,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2SubscriptionOfferPurchaseMessage",
-                "printedName": "in_app_purchase_storekit.SK2SubscriptionOfferPurchaseMessage",
-                "usr": "s:24in_app_purchase_storekit35SK2SubscriptionOfferPurchaseMessageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2SubscriptionOfferPurchaseMessage",
-                "printedName": "in_app_purchase_storekit.SK2SubscriptionOfferPurchaseMessage",
-                "usr": "s:24in_app_purchase_storekit35SK2SubscriptionOfferPurchaseMessageV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24in_app_purchase_storekit35SK2SubscriptionOfferPurchaseMessageV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s24in_app_purchase_storekit35SK2SubscriptionOfferPurchaseMessageV2eeoiySbAC_ACtFZ",
-            "moduleName": "in_app_purchase_storekit",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -9697,6 +9783,37 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2ProductPurchaseOptionsMessage",
+                "printedName": "in_app_purchase_storekit.SK2ProductPurchaseOptionsMessage",
+                "usr": "s:24in_app_purchase_storekit32SK2ProductPurchaseOptionsMessageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2ProductPurchaseOptionsMessage",
+                "printedName": "in_app_purchase_storekit.SK2ProductPurchaseOptionsMessage",
+                "usr": "s:24in_app_purchase_storekit32SK2ProductPurchaseOptionsMessageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24in_app_purchase_storekit32SK2ProductPurchaseOptionsMessageV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24in_app_purchase_storekit32SK2ProductPurchaseOptionsMessageV2eeoiySbAC_ACtFZ",
+            "moduleName": "in_app_purchase_storekit",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "hash",
             "printedName": "hash(into:)",
             "children": [
@@ -9855,38 +9972,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2ProductPurchaseOptionsMessage",
-                "printedName": "in_app_purchase_storekit.SK2ProductPurchaseOptionsMessage",
-                "usr": "s:24in_app_purchase_storekit32SK2ProductPurchaseOptionsMessageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2ProductPurchaseOptionsMessage",
-                "printedName": "in_app_purchase_storekit.SK2ProductPurchaseOptionsMessage",
-                "usr": "s:24in_app_purchase_storekit32SK2ProductPurchaseOptionsMessageV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24in_app_purchase_storekit32SK2ProductPurchaseOptionsMessageV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s24in_app_purchase_storekit32SK2ProductPurchaseOptionsMessageV2eeoiySbAC_ACtFZ",
-            "moduleName": "in_app_purchase_storekit",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -11184,6 +11269,37 @@
           },
           {
             "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2TransactionMessage",
+                "printedName": "in_app_purchase_storekit.SK2TransactionMessage",
+                "usr": "s:24in_app_purchase_storekit21SK2TransactionMessageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SK2TransactionMessage",
+                "printedName": "in_app_purchase_storekit.SK2TransactionMessage",
+                "usr": "s:24in_app_purchase_storekit21SK2TransactionMessageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24in_app_purchase_storekit21SK2TransactionMessageV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s24in_app_purchase_storekit21SK2TransactionMessageV2eeoiySbAC_ACtFZ",
+            "moduleName": "in_app_purchase_storekit",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "hash",
             "printedName": "hash(into:)",
             "children": [
@@ -11374,38 +11490,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2TransactionMessage",
-                "printedName": "in_app_purchase_storekit.SK2TransactionMessage",
-                "usr": "s:24in_app_purchase_storekit21SK2TransactionMessageV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SK2TransactionMessage",
-                "printedName": "in_app_purchase_storekit.SK2TransactionMessage",
-                "usr": "s:24in_app_purchase_storekit21SK2TransactionMessageV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:24in_app_purchase_storekit21SK2TransactionMessageV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s24in_app_purchase_storekit21SK2TransactionMessageV2eeoiySbAC_ACtFZ",
-            "moduleName": "in_app_purchase_storekit",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -12089,8 +12173,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Sk2PigeonPigeonCodec",
-        "printedName": "Sk2PigeonPigeonCodec",
+        "name": "StoreKit2MessagesPigeonCodec",
+        "printedName": "StoreKit2MessagesPigeonCodec",
         "children": [
           {
             "kind": "Var",
@@ -12099,14 +12183,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Sk2PigeonPigeonCodec",
-                "printedName": "in_app_purchase_storekit.Sk2PigeonPigeonCodec",
-                "usr": "c:@M@in_app_purchase_storekit@objc(cs)Sk2PigeonPigeonCodec"
+                "name": "StoreKit2MessagesPigeonCodec",
+                "printedName": "in_app_purchase_storekit.StoreKit2MessagesPigeonCodec",
+                "usr": "c:@M@in_app_purchase_storekit@objc(cs)StoreKit2MessagesPigeonCodec"
               }
             ],
             "declKind": "Var",
-            "usr": "s:24in_app_purchase_storekit09Sk2PigeonF5CodecC6sharedACvpZ",
-            "mangledName": "$s24in_app_purchase_storekit09Sk2PigeonF5CodecC6sharedACvpZ",
+            "usr": "s:24in_app_purchase_storekit28StoreKit2MessagesPigeonCodecC6sharedACvpZ",
+            "mangledName": "$s24in_app_purchase_storekit28StoreKit2MessagesPigeonCodecC6sharedACvpZ",
             "moduleName": "in_app_purchase_storekit",
             "static": true,
             "declAttributes": [
@@ -12124,14 +12208,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Sk2PigeonPigeonCodec",
-                    "printedName": "in_app_purchase_storekit.Sk2PigeonPigeonCodec",
-                    "usr": "c:@M@in_app_purchase_storekit@objc(cs)Sk2PigeonPigeonCodec"
+                    "name": "StoreKit2MessagesPigeonCodec",
+                    "printedName": "in_app_purchase_storekit.StoreKit2MessagesPigeonCodec",
+                    "usr": "c:@M@in_app_purchase_storekit@objc(cs)StoreKit2MessagesPigeonCodec"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:24in_app_purchase_storekit09Sk2PigeonF5CodecC6sharedACvgZ",
-                "mangledName": "$s24in_app_purchase_storekit09Sk2PigeonF5CodecC6sharedACvgZ",
+                "usr": "s:24in_app_purchase_storekit28StoreKit2MessagesPigeonCodecC6sharedACvgZ",
+                "mangledName": "$s24in_app_purchase_storekit28StoreKit2MessagesPigeonCodecC6sharedACvgZ",
                 "moduleName": "in_app_purchase_storekit",
                 "static": true,
                 "implicit": true,
@@ -12149,14 +12233,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Sk2PigeonPigeonCodec",
-                "printedName": "in_app_purchase_storekit.Sk2PigeonPigeonCodec",
-                "usr": "c:@M@in_app_purchase_storekit@objc(cs)Sk2PigeonPigeonCodec"
+                "name": "StoreKit2MessagesPigeonCodec",
+                "printedName": "in_app_purchase_storekit.StoreKit2MessagesPigeonCodec",
+                "usr": "c:@M@in_app_purchase_storekit@objc(cs)StoreKit2MessagesPigeonCodec"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@in_app_purchase_storekit@objc(cs)Sk2PigeonPigeonCodec(im)init",
-            "mangledName": "$s24in_app_purchase_storekit09Sk2PigeonF5CodecCACycfc",
+            "usr": "c:@M@in_app_purchase_storekit@objc(cs)StoreKit2MessagesPigeonCodec(im)init",
+            "mangledName": "$s24in_app_purchase_storekit28StoreKit2MessagesPigeonCodecCACycfc",
             "moduleName": "in_app_purchase_storekit",
             "overriding": true,
             "implicit": true,
@@ -12170,8 +12254,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@in_app_purchase_storekit@objc(cs)Sk2PigeonPigeonCodec",
-        "mangledName": "$s24in_app_purchase_storekit09Sk2PigeonF5CodecC",
+        "usr": "c:@M@in_app_purchase_storekit@objc(cs)StoreKit2MessagesPigeonCodec",
+        "mangledName": "$s24in_app_purchase_storekit28StoreKit2MessagesPigeonCodecC",
         "moduleName": "in_app_purchase_storekit",
         "isOpen": true,
         "declAttributes": [
@@ -12253,6 +12337,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -12610,6 +12701,67 @@
             "declKind": "Func",
             "usr": "s:24in_app_purchase_storekit17InAppPurchase2APIP12transactions10completionyys6ResultOySayAA21SK2TransactionMessageVGs5Error_pGc_tF",
             "mangledName": "$s24in_app_purchase_storekit17InAppPurchase2APIP12transactions10completionyys6ResultOySayAA21SK2TransactionMessageVGs5Error_pGc_tF",
+            "moduleName": "in_app_purchase_storekit",
+            "genericSig": "<τ_0_0 where τ_0_0 : in_app_purchase_storekit.InAppPurchase2API>",
+            "sugared_genericSig": "<Self where Self : in_app_purchase_storekit.InAppPurchase2API>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unfinishedTransactions",
+            "printedName": "unfinishedTransactions(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[in_app_purchase_storekit.SK2TransactionMessage], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[in_app_purchase_storekit.SK2TransactionMessage], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[in_app_purchase_storekit.SK2TransactionMessage]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SK2TransactionMessage",
+                            "printedName": "in_app_purchase_storekit.SK2TransactionMessage",
+                            "usr": "s:24in_app_purchase_storekit21SK2TransactionMessageV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24in_app_purchase_storekit17InAppPurchase2APIP22unfinishedTransactions10completionyys6ResultOySayAA21SK2TransactionMessageVGs5Error_pGc_tF",
+            "mangledName": "$s24in_app_purchase_storekit17InAppPurchase2APIP22unfinishedTransactions10completionyys6ResultOySayAA21SK2TransactionMessageVGs5Error_pGc_tF",
             "moduleName": "in_app_purchase_storekit",
             "genericSig": "<τ_0_0 where τ_0_0 : in_app_purchase_storekit.InAppPurchase2API>",
             "sugared_genericSig": "<Self where Self : in_app_purchase_storekit.InAppPurchase2API>",
@@ -13159,8 +13311,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:24in_app_purchase_storekit25InAppPurchase2CallbackAPIC15binaryMessenger33_BC2CAEBD20FEC9FF40EE5DB65CBC2405LLSo013FlutterBinaryK0_pvp",
-            "mangledName": "$s24in_app_purchase_storekit25InAppPurchase2CallbackAPIC15binaryMessenger33_BC2CAEBD20FEC9FF40EE5DB65CBC2405LLSo013FlutterBinaryK0_pvp",
+            "usr": "s:24in_app_purchase_storekit25InAppPurchase2CallbackAPIC15binaryMessenger33_CF6CCC08C73378072972A2095532E3CFLLSo013FlutterBinaryK0_pvp",
+            "mangledName": "$s24in_app_purchase_storekit25InAppPurchase2CallbackAPIC15binaryMessenger33_CF6CCC08C73378072972A2095532E3CFLLSo013FlutterBinaryK0_pvp",
             "moduleName": "in_app_purchase_storekit",
             "isInternal": true,
             "declAttributes": [
@@ -13185,8 +13337,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:24in_app_purchase_storekit25InAppPurchase2CallbackAPIC20messageChannelSuffix33_BC2CAEBD20FEC9FF40EE5DB65CBC2405LLSSvp",
-            "mangledName": "$s24in_app_purchase_storekit25InAppPurchase2CallbackAPIC20messageChannelSuffix33_BC2CAEBD20FEC9FF40EE5DB65CBC2405LLSSvp",
+            "usr": "s:24in_app_purchase_storekit25InAppPurchase2CallbackAPIC20messageChannelSuffix33_CF6CCC08C73378072972A2095532E3CFLLSSvp",
+            "mangledName": "$s24in_app_purchase_storekit25InAppPurchase2CallbackAPIC20messageChannelSuffix33_CF6CCC08C73378072972A2095532E3CFLLSSvp",
             "moduleName": "in_app_purchase_storekit",
             "isInternal": true,
             "declAttributes": [
@@ -13236,14 +13388,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Sk2PigeonPigeonCodec",
-                "printedName": "in_app_purchase_storekit.Sk2PigeonPigeonCodec",
-                "usr": "c:@M@in_app_purchase_storekit@objc(cs)Sk2PigeonPigeonCodec"
+                "name": "StoreKit2MessagesPigeonCodec",
+                "printedName": "in_app_purchase_storekit.StoreKit2MessagesPigeonCodec",
+                "usr": "c:@M@in_app_purchase_storekit@objc(cs)StoreKit2MessagesPigeonCodec"
               }
             ],
             "declKind": "Var",
-            "usr": "s:24in_app_purchase_storekit25InAppPurchase2CallbackAPIC5codecAA09Sk2PigeonL5CodecCvp",
-            "mangledName": "$s24in_app_purchase_storekit25InAppPurchase2CallbackAPIC5codecAA09Sk2PigeonL5CodecCvp",
+            "usr": "s:24in_app_purchase_storekit25InAppPurchase2CallbackAPIC5codecAA28StoreKit2MessagesPigeonCodecCvp",
+            "mangledName": "$s24in_app_purchase_storekit25InAppPurchase2CallbackAPIC5codecAA28StoreKit2MessagesPigeonCodecCvp",
             "moduleName": "in_app_purchase_storekit",
             "isOpen": true,
             "accessors": [
@@ -13254,14 +13406,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Sk2PigeonPigeonCodec",
-                    "printedName": "in_app_purchase_storekit.Sk2PigeonPigeonCodec",
-                    "usr": "c:@M@in_app_purchase_storekit@objc(cs)Sk2PigeonPigeonCodec"
+                    "name": "StoreKit2MessagesPigeonCodec",
+                    "printedName": "in_app_purchase_storekit.StoreKit2MessagesPigeonCodec",
+                    "usr": "c:@M@in_app_purchase_storekit@objc(cs)StoreKit2MessagesPigeonCodec"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:24in_app_purchase_storekit25InAppPurchase2CallbackAPIC5codecAA09Sk2PigeonL5CodecCvg",
-                "mangledName": "$s24in_app_purchase_storekit25InAppPurchase2CallbackAPIC5codecAA09Sk2PigeonL5CodecCvg",
+                "usr": "s:24in_app_purchase_storekit25InAppPurchase2CallbackAPIC5codecAA28StoreKit2MessagesPigeonCodecCvg",
+                "mangledName": "$s24in_app_purchase_storekit25InAppPurchase2CallbackAPIC5codecAA28StoreKit2MessagesPigeonCodecCvg",
                 "moduleName": "in_app_purchase_storekit",
                 "isOpen": true,
                 "accessorKind": "get"
@@ -13503,6 +13655,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -13613,6 +13772,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -13702,6 +13868,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -13791,6 +13964,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -13901,6 +14081,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -13997,6 +14184,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -14092,6 +14286,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -14209,6 +14410,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -14293,6 +14501,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -14441,6 +14656,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -14563,6 +14785,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
@@ -14571,142 +14800,149 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/InAppPurchasePlugin.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/InAppPurchasePlugin.swift",
       "kind": "Dictionary",
-      "offset": 550,
+      "offset": 528,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 3899,
+      "offset": 3823,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 3964,
+      "offset": 3888,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4023,
+      "offset": 3947,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4086,
+      "offset": 4010,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4157,
+      "offset": 4081,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4180,
+      "offset": 4104,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4123,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 4199,
       "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4275,
-      "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4297,
+      "offset": 4221,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4318,
+      "offset": 4242,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4381,
+      "offset": 4305,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4397,
+      "offset": 4321,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4414,
+      "offset": 4338,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4430,
+      "offset": 4354,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4496,
+      "offset": 4420,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4521,
+      "offset": 4442,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4540,
+      "offset": 4467,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4486,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "StringLiteral",
-      "offset": 23083,
+      "offset": 24815,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "StringLiteral",
-      "offset": 31668,
+      "offset": 34059,
       "length": 2,
       "value": "\"\""
     }

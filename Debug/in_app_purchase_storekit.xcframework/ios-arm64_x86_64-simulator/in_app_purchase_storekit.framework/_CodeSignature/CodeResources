@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/FIAObjectTranslator.h</key>
 		<data>
-		dLH1Pf7Kum7hSVnvjkSmbYiwLw0=
+		zpdwursairR7ug5nnv8tmehYI24=
 		</data>
 		<key>Headers/FIAPPaymentQueueDelegate.h</key>
 		<data>
-		PVt6V2SaG2tpEsGrkpyQS0e5sPQ=
+		M3AB4HiAczGi90G7HfcBu4/a8zQ=
 		</data>
 		<key>Headers/FIAPReceiptManager.h</key>
 		<data>
-		Nb9dgr9HSigmJMkBQlUzLvWisvI=
+		MwdbFYtiWRczLc7eDC7C5tfkgJE=
 		</data>
 		<key>Headers/FIAPRequestHandler.h</key>
 		<data>
-		kZ2Sy6mXr6ZGG6lb12K7YxTI1yI=
+		2t49rKDVUeyhUDZC+O+Qw/xsUA0=
 		</data>
 		<key>Headers/FIAPaymentQueueHandler.h</key>
 		<data>
-		3zIIXrGmOUB6rTUPmcE+Z8HUF3Y=
+		Faboj8IyBmmw9rDqBupNHe7cnZQ=
 		</data>
 		<key>Headers/FIATransactionCache.h</key>
 		<data>
-		JM6HqM/MyBQAHWLDwabMYbaQjY0=
+		vch365bb/9e98NEYSUtsy4OUy1k=
 		</data>
 		<key>Headers/FLTMethodChannelProtocol.h</key>
 		<data>
-		p7sfGykb9cd1qTlZJiG9eb1oxII=
+		brYoJpAjC6a7tE6ldcokU1NWHqs=
 		</data>
 		<key>Headers/FLTPaymentQueueHandlerProtocol.h</key>
 		<data>
-		4CjMJaoZvaCC8HI4HiH1dPqBPL4=
+		wuDjyQPeka1s1VDPkHTWthV9UZw=
 		</data>
 		<key>Headers/FLTPaymentQueueProtocol.h</key>
 		<data>
-		d8CgaDrZyxCsdjr2pEoHU8uLgw4=
+		0Jxtk0IEbsRRAjE+hCMvk1z1B4A=
 		</data>
 		<key>Headers/FLTRequestHandlerProtocol.h</key>
 		<data>
-		P+mSwCE2CXkPU1OoI0yKR7l8smY=
+		D275uIBR5xarBeC+YWVeGDiv1ZE=
 		</data>
 		<key>Headers/FLTTransactionCacheProtocol.h</key>
 		<data>
-		GiniIToXGrnADkTCzw+/HYBC3AM=
+		aOBUx9tcWXvx/CZUakCB6qhu2T4=
 		</data>
 		<key>Headers/in_app_purchase_storekit-Swift.h</key>
 		<data>
-		SQVIhDcafzrcQzfsJRchwxzdu+c=
+		RWWpSxxblGVFUU5GxfwcoP2ppXA=
 		</data>
 		<key>Headers/in_app_purchase_storekit-umbrella.h</key>
 		<data>
@@ -58,63 +58,63 @@
 		</data>
 		<key>Headers/in_app_purchase_storekit.h</key>
 		<data>
-		1zGg09HRPtVivTzNyFQVVjkik28=
+		/syaBHoK302SxhidYF0WBaL84Hk=
 		</data>
 		<key>Headers/messages.g.h</key>
 		<data>
-		YfD7WL/yCSEk1pUrfc37nbxd0qI=
+		WiRuHYQL1l/bTFkCk07UFteOknM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cHbRwk5wIlwnoxMGTBsOR8hqnPY=
+		NlhjtbiCWSH6Af9gZ33TEYlSFEo=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		t7FS8G9cogwKTkivVLgC1USz9jg=
+		h+F+Hr+LgLJJ1/Kk678LYISSu4I=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		j/sK5g59KjG6QdeCNhtrSubtYXg=
+		5jao+m8edlSXFRl+08l6I9RO32o=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LCl8kBjHiv8El+ylVCtOv0NKxks=
+		Nqp/5+wAax0rBzJsLET1kgEZxFE=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Q+fSqWnvY4FGOZBn6n8zpNuXEwU=
+		owP2JoWlKsmnyVMSXzYQ5kOAsNQ=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		n1T3RVI90Zn9s/XHqIYkj6Hq/0I=
+		2e1ATuNwsxwGFR7Qug6/xkbUp08=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Q+fSqWnvY4FGOZBn6n8zpNuXEwU=
+		owP2JoWlKsmnyVMSXzYQ5kOAsNQ=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		avCF3n+LPjs5YzsI4ofdnFnuVCQ=
+		N9RmI7NGvUl04MXMIiUzf3cMrxg=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LCl8kBjHiv8El+ylVCtOv0NKxks=
+		Nqp/5+wAax0rBzJsLET1kgEZxFE=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xQ6HLT0G2AxCUxmSci0OHhqsYgM=
+		GhW+ZCNGcTxh+LY+ufU7KUdFjMk=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4i3WpizuHki2hhVW+pugjwJguxI=
+		wgOjuf8ltB9rGcKZ6DkXTk6yViM=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xQ6HLT0G2AxCUxmSci0OHhqsYgM=
+		GhW+ZCNGcTxh+LY+ufU7KUdFjMk=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cIOU0LOSDIQ/2TdiIRA0VS4os20=
+		XqNm9qwPcvwuVrCvIQ/gJGyDti8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>in_app_purchase_storekit_privacy.bundle/Info.plist</key>
 		<data>
-		GQXijoE1TFrhwss66LB8jCbxaGs=
+		DEFW2nExAM+M8MgWiPtAq8B75jo=
 		</data>
 		<key>in_app_purchase_storekit_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -135,84 +135,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D4T6Y4o/j1ClY8QxIXdfURSnlEhvfSpTiOy0vPsU0Q0=
+			TGdfelHJeM6PHw5pZmDZzqcv2GKHTJoUCf47cTdjFT4=
 			</data>
 		</dict>
 		<key>Headers/FIAPPaymentQueueDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nLKtUXhR9OIEFo2qy+LIA2Qzvi+bjl9HdHN9Q5Z3OAc=
+			R5KZro5g2iQW5uLLfChdBd7DdrMKDXhmOsbKZKQ4JWA=
 			</data>
 		</dict>
 		<key>Headers/FIAPReceiptManager.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x11VFAGOf3OTXKkSjSfy/UXF7viBDeNJud2ZmG6FmoY=
+			ItqOJqeO30fVONd0Zp85yLSHceGpXgeoamo6VeoMU6k=
 			</data>
 		</dict>
 		<key>Headers/FIAPRequestHandler.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rPOn1hnpdDb2RviK09RA/acgRli8n/3DiXGTaVlW+Vo=
+			nl0p5UJAOj53X6C/At0Wt+9BH3J4i4u0icQYSb0oB7E=
 			</data>
 		</dict>
 		<key>Headers/FIAPaymentQueueHandler.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YvGaA9j5SKTDlDNnnQB/1XZCFQzC5KO1K0cm/C6P8VU=
+			nSlUPj4D9bDVqKarwOy91GXYAZX/MjIin0EGB3F0+WM=
 			</data>
 		</dict>
 		<key>Headers/FIATransactionCache.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vn0QK2IelIf1fW3+TvZf34MkyqQqGGmHpS+hizTxTno=
+			zbW/6yhAAxqjn+ROYxI8h7FUPZ5yxdQ0DQjsyHVPv6o=
 			</data>
 		</dict>
 		<key>Headers/FLTMethodChannelProtocol.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M9GkdVyhBcDOSQ8CX9BiV1sGQXR0bM6MYwVDoZmfqns=
+			akskxJ00FH8NwMAqB5//jMfkl2L48FViPTWmSoDpbck=
 			</data>
 		</dict>
 		<key>Headers/FLTPaymentQueueHandlerProtocol.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Fmu+EaTn26xWHjXjMmyIYXaGi+mmI5PxlH9UbDNLoQ=
+			hHywUf7i1KWEcbGiy+yCEEzQ8STpOu07Dy9oFHagNsI=
 			</data>
 		</dict>
 		<key>Headers/FLTPaymentQueueProtocol.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8AoC6CCuB7DnYGZnJA6IfoGPkOlGerg0ekxIcLYgxWs=
+			7uf+Tpt43P2l+CwVgNLLw8Qzp/dltIs6TzHAy77SyEs=
 			</data>
 		</dict>
 		<key>Headers/FLTRequestHandlerProtocol.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N0LhuVBajz9JdzCTIsBGZ4VGx1PMfcT03qoi4f9bA/w=
+			aX69IoTokIk31QIUXkSIx+G5eV7soEugKcxKLDqr8sA=
 			</data>
 		</dict>
 		<key>Headers/FLTTransactionCacheProtocol.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DEiG6pJ/57x9/nSjb6637vLnqoteEZ+oup5/JyimBz0=
+			u3ObOua0zMHlzRle/sL6Eu49jWoQAwCA8HH7Tx5Jr4c=
 			</data>
 		</dict>
 		<key>Headers/in_app_purchase_storekit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m0mT5jIi9TZqaIIWVX0BjcjL+f/zLwgtAyijS3UtcYw=
+			VdVUV2h6qsopakpXDyCoWMgdNJ/mno9dExCSpag748U=
 			</data>
 		</dict>
 		<key>Headers/in_app_purchase_storekit-umbrella.h</key>
@@ -226,98 +226,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Txcv/fISnzfNToDfJy1gFzaPTv/VUxcx2PkdifC5AcU=
+			hUudSnzoqqXRoPlgRBBCv0Z8gyypJSXYo3Yil+H2kcI=
 			</data>
 		</dict>
 		<key>Headers/messages.g.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Bt9egE7Zxvpj3oihLpzCGlyGYl3drieV98YYOLLxTQ=
+			vNVlzsGKYbWZ2MypvHbE+LwmJadYdYkBeV49tY31SuE=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NJcOlFa1cNgqabaj4uY4ZFMAlOi87seL/dJ0W+sNASc=
+			YvRbRjsiFW8DRgah0agVnyF7f7GMMHuyyV9GCSnOEO0=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wegJAPD0aCYX6euKd94rmB7Q8idJRtHt+KkSqcscUy0=
+			/MrgiEu7T/E9y3Sopm/76AffIm7o3BiTK8JaN7QrxdE=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r3pFy1twH8rODJRVqGYPOGjUJTY30IPU2sdyhRl/+hw=
+			M4bcTaQ+qjs6NR/egprA6x4WN2r32PuN3RG/isfHdkQ=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ucXwtlYs+IVqGB6NqhlZ0nI3kCKv3pz3wx4VbTAP2I=
+			RL8qfP2GPlHcO2ZRWcU54thtfS+zoB4UJZP7joWg2sg=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m0ZInvXitjO+RE8c8KAVEW8Voj3ajPOaJJAurAgqOrM=
+			x7qMjklNBoJIlCtUPQpdYv+FI6pWfqi7W0NKaHwyRK4=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ucXwtlYs+IVqGB6NqhlZ0nI3kCKv3pz3wx4VbTAP2I=
+			RL8qfP2GPlHcO2ZRWcU54thtfS+zoB4UJZP7joWg2sg=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GoeTon3dA26iSOB6xcAr7x33XfToE1LIHWYlkZh0ohU=
+			O8V56a1yQ0hHiJVOKZ/AHTgojcoGUkwKrk0xFgg8FjU=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r3pFy1twH8rODJRVqGYPOGjUJTY30IPU2sdyhRl/+hw=
+			M4bcTaQ+qjs6NR/egprA6x4WN2r32PuN3RG/isfHdkQ=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			spLXvfXkYQU8KyGpqubrr1IcMuYmxCCBlnqG5fsrJbk=
+			cjYbWXS5WO79au2BtSMNrdCYKiTRBx+hcVBh7RIyj7E=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			inAozFBq2clrwdUdDrLlgCjWwdf3tsAL8QKNKW9JM50=
+			GhYk+X/tJBsXJJ0FudPE91fk4DhPMSsIeQzGkMdz0P0=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			spLXvfXkYQU8KyGpqubrr1IcMuYmxCCBlnqG5fsrJbk=
+			cjYbWXS5WO79au2BtSMNrdCYKiTRBx+hcVBh7RIyj7E=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QUbog9Rgjfd4m5lHopmaB9aTjEsPas671SPX0T21u5E=
+			SS+5gKV2aurfJnoGZBI28bx9wMtI1fsfRpzLyAENSf8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -331,7 +331,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dktzQnNMT9e9esNrzbdJeRf8/KKFzsb9DxiSEAViqP4=
+			N3OdugzyDzXMqXX135ezYa/mI7sKofrQIsNczRBau7s=
 			</data>
 		</dict>
 		<key>in_app_purchase_storekit_privacy.bundle/PrivacyInfo.xcprivacy</key>

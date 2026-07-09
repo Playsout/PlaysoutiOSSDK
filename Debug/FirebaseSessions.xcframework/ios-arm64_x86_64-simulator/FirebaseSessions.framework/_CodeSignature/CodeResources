@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/FIRSESNanoPBHelpers.h</key>
 		<data>
-		QZaPFgl+lNT/fVNYzJRzDXyJE10=
+		8rl2xn5eVsGnX6r22K4H6rN4oNY=
 		</data>
 		<key>Headers/FirebaseSessions-Swift.h</key>
 		<data>
-		fO+czBJV50rda/ulWzZW4jf0I9M=
+		cg31Y5zMc2TK4bn6N/FiQpDqQIU=
 		</data>
 		<key>Headers/FirebaseSessions-umbrella.h</key>
 		<data>
@@ -22,55 +22,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5NOjJvVJo67vH056hla43KLrXU8=
+		vHxO7RwWG4oOyl0HNoWUL8eu2Dw=
 		</data>
 		<key>Modules/FirebaseSessions.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		pX56SoGfKIsW10pXGdBURA+Z+mM=
+		km4wAyiSUI6aoudnrUONRnDVExM=
 		</data>
 		<key>Modules/FirebaseSessions.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		eeSu0gcis1buyhQp+EyQzxXM4Wg=
+		gVyJaGL0nqXA8NT71rcioFEz6kI=
 		</data>
 		<key>Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vlSaTR5jcrYAbSxP95/uHpthBXw=
+		uIQ52FVRLdba+KQUjhL2wXIhJPs=
 		</data>
 		<key>Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FfX2H7Rpnz2iNdphxV6hlff1bLI=
+		6YNXveDiunDDk2pZB4TTxI90m1A=
 		</data>
 		<key>Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1rMj4BGVZK/gYHY2yLykg+giloM=
+		OoxMdYFtWsvwYm8UwkWtDJAhx7c=
 		</data>
 		<key>Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FfX2H7Rpnz2iNdphxV6hlff1bLI=
+		6YNXveDiunDDk2pZB4TTxI90m1A=
 		</data>
 		<key>Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5kpuqmhpNamIfBRfjiXsgC55dig=
+		RTLR8H4gp5HhXiKAJM+J0VAhCiM=
 		</data>
 		<key>Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vlSaTR5jcrYAbSxP95/uHpthBXw=
+		uIQ52FVRLdba+KQUjhL2wXIhJPs=
 		</data>
 		<key>Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ZyadHxh1Ew4HnJ2c/DZp7hYV0eA=
+		pTcNvuIlzaepUgVIuuSI14bd4ME=
 		</data>
 		<key>Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mzc0JZDCSrXVcKEOx2g1e8nHXUM=
+		jzzCyfZZbRlKt9ED9xBDfZImKXc=
 		</data>
 		<key>Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZyadHxh1Ew4HnJ2c/DZp7hYV0eA=
+		pTcNvuIlzaepUgVIuuSI14bd4ME=
 		</data>
 		<key>Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BL0VA8BABbUuxdnhRBMWWlERrok=
+		D4VL3S9L2+Kf/IljgownmF/jNyU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Px1rh+rp7qKoIu+uBDMm3QscSx20IEuAGHWt/VErnbY=
+			QW8QhwkR6YLqlZsjrzd1loGzf0UnmKbFUmH2pj03MRw=
 			</data>
 		</dict>
 		<key>Headers/FirebaseSessions-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jz8bpI/J4hfZU5u0UTKk/wRsOqi5mVTMREHP3KfWavI=
+			14/CBIpfH5O5zGamWNCwbEsb+uZfzqJoBe3YV9EdMkw=
 			</data>
 		</dict>
 		<key>Headers/FirebaseSessions-umbrella.h</key>
@@ -111,84 +111,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			38di0ekCtAXDyELIrG5J4GEiWfhIIVaIHj/uYUQUgnY=
+			776ZF1XArZY3vk7+zJjCHUNb8wB91Dsr7SPAb47UJW4=
 			</data>
 		</dict>
 		<key>Modules/FirebaseSessions.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5li8cFLwOKjYTCzFmKfye+ylogXD1XlstiIHxaR0Ak4=
+			0bcSfuJTEuNnQ2i/RWHOtsf7l3VX4v9BmgW8dzxYg9o=
 			</data>
 		</dict>
 		<key>Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zRMNStyE/T1meEvI+Bd4GtsaAaxNIpPeNaXg5++lrw4=
+			LcdP/YRaXVWYw3zZY/ae7l0jlmKoE96wi0K7vyFjpwo=
 			</data>
 		</dict>
 		<key>Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qsnJg/V8A+LnoRgJi7XrDAwzgrcwOC5FZGGGRp5avIo=
+			KW+45fNmKqm7X8AXCCdeccygSxlddndTMSLfPp0T2Sg=
 			</data>
 		</dict>
 		<key>Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OzzuwWGzr1bfa6nSncbE6xtSCEA6KStybuN2J5yscfY=
+			2GiP+X1rJ8sTRO6e5DwN9fDa2uTxHOIMQjT917mhG1A=
 			</data>
 		</dict>
 		<key>Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qsnJg/V8A+LnoRgJi7XrDAwzgrcwOC5FZGGGRp5avIo=
+			KW+45fNmKqm7X8AXCCdeccygSxlddndTMSLfPp0T2Sg=
 			</data>
 		</dict>
 		<key>Modules/FirebaseSessions.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RnZ9O3jfh2CZDm4G3/ozPfwAEGdQhFXq1LBTl1/+3JI=
+			E6sUPjaJnbBl2/YjXK76WVg3xML30t9nxyAo63zYfoc=
 			</data>
 		</dict>
 		<key>Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zRMNStyE/T1meEvI+Bd4GtsaAaxNIpPeNaXg5++lrw4=
+			LcdP/YRaXVWYw3zZY/ae7l0jlmKoE96wi0K7vyFjpwo=
 			</data>
 		</dict>
 		<key>Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ppIT7ADW7MO96h9V9ptAiVEnycix8w6iIHm+n3mlrnE=
+			KF0g5eQWvU3HpOCruMo+wW/qE4Ac/r/7aDTj7NNG34w=
 			</data>
 		</dict>
 		<key>Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lxFNznMvf7J+NRMICgWcuIG2vpAFSFR8NFDXkTANWLM=
+			ATRp3yPR6qTaE5tJBY1ieYxlPbsx+4OFjaYzx2DdwTI=
 			</data>
 		</dict>
 		<key>Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ppIT7ADW7MO96h9V9ptAiVEnycix8w6iIHm+n3mlrnE=
+			KF0g5eQWvU3HpOCruMo+wW/qE4Ac/r/7aDTj7NNG34w=
 			</data>
 		</dict>
 		<key>Modules/FirebaseSessions.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YoN6WdqFQHCGzEfnw4anmlFnrdLM3LxemFMieqjdvvc=
+			1Dg3e0h4IwLgr67TL6n3KxylZAkVmv3D8ttq3muXQQQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

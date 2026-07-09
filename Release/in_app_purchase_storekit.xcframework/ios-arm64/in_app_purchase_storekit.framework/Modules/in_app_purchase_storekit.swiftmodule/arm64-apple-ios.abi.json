@@ -1578,142 +1578,149 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/InAppPurchasePlugin.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/InAppPurchasePlugin.swift",
       "kind": "Dictionary",
-      "offset": 550,
+      "offset": 528,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 3899,
+      "offset": 3823,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 3964,
+      "offset": 3888,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4023,
+      "offset": 3947,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4086,
+      "offset": 4010,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4157,
+      "offset": 4081,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4180,
+      "offset": 4104,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4123,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
       "offset": 4199,
       "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4275,
-      "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4297,
+      "offset": 4221,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4318,
+      "offset": 4242,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4381,
+      "offset": 4305,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4397,
+      "offset": 4321,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4414,
+      "offset": 4338,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4430,
+      "offset": 4354,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4496,
+      "offset": 4420,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4521,
+      "offset": 4442,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "IntegerLiteral",
-      "offset": 4540,
+      "offset": 4467,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4486,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "StringLiteral",
-      "offset": 23083,
+      "offset": 24815,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.4\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/sk2_pigeon.g.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/in_app_purchase_storekit-0.4.7\/darwin\/in_app_purchase_storekit\/Sources\/in_app_purchase_storekit\/StoreKit2\/StoreKit2Messages.g.swift",
       "kind": "StringLiteral",
-      "offset": 31668,
+      "offset": 34059,
       "length": 2,
       "value": "\"\""
     }

@@ -4,17 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/DeviceIdentifiers.h</key>
+		<data>
+		ArzKyFeM4EJkCwi6Bby3B3jXcRU=
+		</data>
 		<key>Headers/FPPDeviceInfoPlusPlugin.h</key>
 		<data>
 		jK2eBNr3bLIjDaI4U4nnxjZLcsY=
 		</data>
 		<key>Headers/device_info_plus-umbrella.h</key>
 		<data>
-		XE4+oAC2CAkwn8Qxbo5KAAb4uH4=
+		vPxjbVlNEkVRCUsUyFg15NIeapM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rMAXCv01H1sTzmAYd6fklDHMHBU=
+		7aJB53kbFav8ZgkPJNQR+XwF3XU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -22,7 +26,7 @@
 		</data>
 		<key>device_info_plus_privacy.bundle/Info.plist</key>
 		<data>
-		mjRWobUwwbgxJN2GWc1BGTVGSeY=
+		bAhDhfvM7BiK5EdwnPhGkfA+WMU=
 		</data>
 		<key>device_info_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -31,6 +35,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/DeviceIdentifiers.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qSGylfRDt9cwMiAVvy4Tl/bX2w3stxsa4BGStlMYDjo=
+			</data>
+		</dict>
 		<key>Headers/FPPDeviceInfoPlusPlugin.h</key>
 		<dict>
 			<key>hash2</key>
@@ -42,7 +53,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ExigpzWWLa5VTGMC3bGfQUocP6qw5urSvpi1GrKbgnk=
+			SpnxtUlg/k85XieTPw1L6DB5zNIwxoX0okXZK0XDSVE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -56,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YxmVhaHaQHsiVYzxH7lsXJ4OO+c/uBdrAr3KvGtnuDc=
+			sLeZBcQ3VGn+N64L965y/m38LBxXnXiElwIHwY/pvDo=
 			</data>
 		</dict>
 		<key>device_info_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>

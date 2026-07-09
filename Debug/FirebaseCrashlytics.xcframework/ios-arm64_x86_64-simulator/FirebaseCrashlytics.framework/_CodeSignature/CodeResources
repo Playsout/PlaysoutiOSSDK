@@ -6,7 +6,7 @@
 	<dict>
 		<key>FirebaseCrashlytics_Privacy.bundle/Info.plist</key>
 		<data>
-		sopL3lQcnLzpsLQwIzOzaRQctKw=
+		BBQUgKjwmZ8FlBhIYKPLR4ti6zk=
 		</data>
 		<key>FirebaseCrashlytics_Privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/FIRCrashlytics.h</key>
 		<data>
-		DRpfFqqWTwFxka0rxIpDuaDAduM=
+		31vyoSbmPEw53VSXG3Xq6ZRyvGM=
 		</data>
 		<key>Headers/FIRCrashlyticsReport.h</key>
 		<data>
-		wOqSTo1bNkx9UDulFxk0/gMH9Vw=
+		Ym7IDQH02ma7XNYNdmNK8fxFCp4=
 		</data>
 		<key>Headers/FIRExceptionModel.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/FirebaseCrashlytics-Swift.h</key>
 		<data>
-		J3YHsUzTL2eevI9a/LQNqcl4vdc=
+		e0WWxCYPyC8wNGcDNbeeaE02G8g=
 		</data>
 		<key>Headers/FirebaseCrashlytics-umbrella.h</key>
 		<data>
@@ -42,15 +42,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		d0LDP72mhaxy6hkYE11fTDO+WLY=
+		ZyVJCzIb8lYTiFl+6QlZ6ZUZHvs=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		uNKZJZwYaLWAWZqtIlCHzUv6Vic=
+		i3D4ZxJHMiL1f4rhMDeXH21B/jw=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		B3YuILR2+SF6MKlCAaGjBQvXhW0=
+		3IhozbZMoUMegd5oDv6pifHrtxE=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,19 +58,19 @@
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/wcDvOkGV8h2xMj4Fd1KtNGLhJQ=
+		zAI2QtUktPLi/YBDFKYsWAX4u0g=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		l4DZOKSXgdxrDuiETB5GNL3QEC0=
+		6cjUfFPv/kiKvoywxdyW4hWOzuE=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/wcDvOkGV8h2xMj4Fd1KtNGLhJQ=
+		zAI2QtUktPLi/YBDFKYsWAX4u0g=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3TxpjyuuwUVU+Y5Z/Lu9PfSWn8I=
+		4lEfT05rKzZIQ1ko9qjI88qkA3c=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -78,19 +78,19 @@
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FeNomoWX/GV3D6bj0Yu/w2hYzyM=
+		H1VzH4JaE7r8FraRZA6Ou4QVN7E=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lGf3eAlSw08/ivYY2p1N5O1PSwE=
+		/2vfyKA5ppm9Bx6pEMuEUDGD/XU=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FeNomoWX/GV3D6bj0Yu/w2hYzyM=
+		H1VzH4JaE7r8FraRZA6Ou4QVN7E=
 		</data>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sWamDOR0MdQVwIbMqD9Hu/ZTIOo=
+		nr3lxsq75QKOLfJFl08rId2s4VM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kHaXF8mrPg4pnUFEpYVhZFUglEuLN6K9/i4nJHJ2tuA=
+			Fi9N+CTlESrGT17K/9ncNJ4xBCkHiCUJtCAsVl3PD1E=
 			</data>
 		</dict>
 		<key>FirebaseCrashlytics_Privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5RtaEkNnPt/YDzRFSmvgWD0RlGtmh49r118sbzRRK+E=
+			S/GuzyPiDkEjFuOaqbtfPfCnAaF+mLDFCeFBrYvx+tU=
 			</data>
 		</dict>
 		<key>Headers/FIRCrashlyticsReport.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YifuAZteL0AyhpvN5s07yosUbhtVDrbBtBn3UK5kdFQ=
+			yJph2yl7Y9WP2QpDgLNRW8wKHqWYeTD7qvbDmfLpELI=
 			</data>
 		</dict>
 		<key>Headers/FIRExceptionModel.h</key>
@@ -145,7 +145,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cyhEUDvh/z31VgJx18AtGFIHss/trBEwqbScmwvu3so=
+			qpd41Kpz88OC9XHAHpTtyFimnF2MyGR1IKLQFcF5t9M=
 			</data>
 		</dict>
 		<key>Headers/FirebaseCrashlytics-umbrella.h</key>
@@ -166,14 +166,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U7bNuORx6gb1yB+jgOsH3ZfEdS0fCO7aOtCq42n8h7c=
+			Id0uL3gan2yFIbujlOD2cnOdKxKgaS6/fHWF6lcRWkQ=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ggl8jPvBqIcgj0lvZ3LmUVRN2Hpsa6fuXwtPry8qL/8=
+			/MEmISMm+41WkXj1sfCfq3KYzJHHci0gzMwbao5Htws=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -187,28 +187,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c7LXgkqeKa4H/QQM+fqfnZ25IpYBk6FYTEBkSGNqkmM=
+			HzWBKDR1rIAfz1oHw3EoOErq+ZPNkLfEMKy06oY6im0=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XhjEWsmrsz8KHoxYNB0DfqsCb4SbwwJjTB7BryML5Lo=
+			ay1MZPJ5dl5Ynk9/XpslveQqZeQY2XJHz32EVDW/plg=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c7LXgkqeKa4H/QQM+fqfnZ25IpYBk6FYTEBkSGNqkmM=
+			HzWBKDR1rIAfz1oHw3EoOErq+ZPNkLfEMKy06oY6im0=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QaCbmBcZLy0pEWdP9vF2do1SZxcvoWuxgrjUdpsLDAA=
+			Msw50x6reLL4mhCxLjZKM8c/9xLVIY9MDpQI0NtU0DE=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -222,28 +222,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ucUoy+K8DDsHfEunr81n9e8bFsYPGH3N0XbK+bsj7BY=
+			8BXxOl1c7UVOda+xeFmDY71TrvKWGTfboDZ8KMscNdU=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V3BdQTBmDYi21ZXhhOkpxR2B63ZM4ZFhhVcREQyGjOE=
+			0JmeYUFMJlsTaFO+J3aEZaYbP+g71Ky7ikj8n8YC+Fo=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ucUoy+K8DDsHfEunr81n9e8bFsYPGH3N0XbK+bsj7BY=
+			8BXxOl1c7UVOda+xeFmDY71TrvKWGTfboDZ8KMscNdU=
 			</data>
 		</dict>
 		<key>Modules/FirebaseCrashlytics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EdKxtZUr3FIhHWLzJ3nhcbzCy2P+Wc+2puQ/pyjPneU=
+			/Yz8MSsyVceb2FYlD9Hk+1MZvMeyEAAKtxkZNpn4TqA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

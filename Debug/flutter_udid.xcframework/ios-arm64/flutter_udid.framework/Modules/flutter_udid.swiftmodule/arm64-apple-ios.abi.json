@@ -20,8 +20,8 @@
       },
       {
         "kind": "Import",
-        "name": "SAMKeychain",
-        "printedName": "SAMKeychain",
+        "name": "KeychainAccess",
+        "printedName": "KeychainAccess",
         "declKind": "Import",
         "moduleName": "flutter_udid"
       },

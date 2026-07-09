@@ -34,8 +34,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "VibrationPluginSwift",
-        "printedName": "VibrationPluginSwift",
+        "name": "VibrationPlugin",
+        "printedName": "VibrationPlugin",
         "children": [
           {
             "kind": "Var",
@@ -58,8 +58,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvpZ",
-            "mangledName": "$s9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvpZ",
+            "usr": "s:9vibration15VibrationPluginC6engineSo14CHHapticEngineCSgvpZ",
+            "mangledName": "$s9vibration15VibrationPluginC6engineSo14CHHapticEngineCSgvpZ",
             "moduleName": "vibration",
             "static": true,
             "intro_iOS": "13.0",
@@ -93,8 +93,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvgZ",
-                "mangledName": "$s9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvgZ",
+                "usr": "s:9vibration15VibrationPluginC6engineSo14CHHapticEngineCSgvgZ",
+                "mangledName": "$s9vibration15VibrationPluginC6engineSo14CHHapticEngineCSgvgZ",
                 "moduleName": "vibration",
                 "static": true,
                 "implicit": true,
@@ -129,8 +129,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvsZ",
-                "mangledName": "$s9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvsZ",
+                "usr": "s:9vibration15VibrationPluginC6engineSo14CHHapticEngineCSgvsZ",
+                "mangledName": "$s9vibration15VibrationPluginC6engineSo14CHHapticEngineCSgvsZ",
                 "moduleName": "vibration",
                 "static": true,
                 "implicit": true,
@@ -151,8 +151,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvMZ",
-                "mangledName": "$s9vibration20VibrationPluginSwiftC6engineSo14CHHapticEngineCSgvMZ",
+                "usr": "s:9vibration15VibrationPluginC6engineSo14CHHapticEngineCSgvMZ",
+                "mangledName": "$s9vibration15VibrationPluginC6engineSo14CHHapticEngineCSgvMZ",
                 "moduleName": "vibration",
                 "static": true,
                 "implicit": true,
@@ -183,8 +183,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@vibration@objc(cs)VibrationPluginSwift(cm)registerWithRegistrar:",
-            "mangledName": "$s9vibration20VibrationPluginSwiftC8register4withySo07FlutterC9Registrar_p_tFZ",
+            "usr": "c:@M@vibration@objc(cs)VibrationPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s9vibration15VibrationPluginC8register4withySo07FlutterC9Registrar_p_tFZ",
             "moduleName": "vibration",
             "static": true,
             "objc_name": "registerWithRegistrar:",
@@ -207,8 +207,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9vibration20VibrationPluginSwiftC12createEngineyyFZ",
-            "mangledName": "$s9vibration20VibrationPluginSwiftC12createEngineyyFZ",
+            "usr": "s:9vibration15VibrationPluginC12createEngineyyFZ",
+            "mangledName": "$s9vibration15VibrationPluginC12createEngineyyFZ",
             "moduleName": "vibration",
             "static": true,
             "intro_iOS": "13.0",
@@ -262,8 +262,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@vibration@objc(cs)VibrationPluginSwift(im)handleMethodCall:result:",
-            "mangledName": "$s9vibration20VibrationPluginSwiftC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "usr": "c:@M@vibration@objc(cs)VibrationPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s9vibration15VibrationPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
             "moduleName": "vibration",
             "isOpen": true,
             "objc_name": "handleMethodCall:result:",
@@ -280,14 +280,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "VibrationPluginSwift",
-                "printedName": "vibration.VibrationPluginSwift",
-                "usr": "c:@M@vibration@objc(cs)VibrationPluginSwift"
+                "name": "VibrationPlugin",
+                "printedName": "vibration.VibrationPlugin",
+                "usr": "c:@M@vibration@objc(cs)VibrationPlugin"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@vibration@objc(cs)VibrationPluginSwift(im)init",
-            "mangledName": "$s9vibration20VibrationPluginSwiftCACycfc",
+            "usr": "c:@M@vibration@objc(cs)VibrationPlugin(im)init",
+            "mangledName": "$s9vibration15VibrationPluginCACycfc",
             "moduleName": "vibration",
             "overriding": true,
             "implicit": true,
@@ -301,8 +301,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@vibration@objc(cs)VibrationPluginSwift",
-        "mangledName": "$s9vibration20VibrationPluginSwiftC",
+        "usr": "c:@M@vibration@objc(cs)VibrationPlugin",
+        "mangledName": "$s9vibration15VibrationPluginC",
         "moduleName": "vibration",
         "isOpen": true,
         "declAttributes": [
@@ -385,11 +385,25 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/vibration-2.1.0\/ios\/Classes\/VibrationPluginSwift.swift",
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/vibration-3.2.0\/ios\/vibration\/Sources\/vibration\/VibrationPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 189,
+      "offset": 191,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/vibration-3.2.0\/ios\/vibration\/Sources\/vibration\/VibrationPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 667,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/jasonzheng\/.pub-cache\/hosted\/pub.flutter-io.cn\/vibration-3.2.0\/ios\/vibration\/Sources\/vibration\/VibrationPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5255,
+      "length": 1,
+      "value": "0"
     }
   ]
 }

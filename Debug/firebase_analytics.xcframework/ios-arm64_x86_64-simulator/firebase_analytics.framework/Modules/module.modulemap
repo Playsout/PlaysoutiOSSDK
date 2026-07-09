@@ -4,3 +4,8 @@ framework module firebase_analytics {
   export *
   module * { export * }
 }
+
+module firebase_analytics.Swift {
+  header "firebase_analytics-Swift.h"
+  requires objc
+}

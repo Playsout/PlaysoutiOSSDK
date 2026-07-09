@@ -6,7 +6,7 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		T7ae0s1yqPVdrLK0y5gqABVb1PU=
+		nHsEkmlVCwRZHdUPhDWVtuHob3A=
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		B6HP67YnYV6/EqmhgrZ0GWfM64U=
+		2tw9lYuOIL/8YyKGgAdJppJkpCk=
 		</data>
 		<key>flutter_assets/NativeAssetsManifest.json</key>
 		<data>
-		re4p7E8rPLLsN+wzaPN/+AVpXTY=
+		+VnOz+LbUF1X5KtM1SFpxrUdsm4=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -286,7 +286,7 @@
 		</data>
 		<key>flutter_assets/packages/wakelock_plus/assets/no_sleep.js</key>
 		<data>
-		4X7PZ95hkgUE15GU2+5c1VKgHP0=
+		/hn7npcR9F8lzvLRY7/5SRla7fk=
 		</data>
 		<key>flutter_assets/packages/window_manager/images/ic_chrome_close.png</key>
 		<data>
@@ -306,11 +306,11 @@
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
-		VvTF10G1gIeea4aI0DhJjCjHgXQ=
+		EGRz1/Lz0IU55sDsYLpgQGHcfzg=
 		</data>
 		<key>flutter_assets/shaders/stretch_effect.frag</key>
 		<data>
-		kG7Fh+R6JkaM/GufJFUfEToHTEg=
+		oF3vzikJfeSpIcWLzeBHGrs5u+w=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -333,14 +333,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2b8CVeO91kYtP7nk1GjigXPZiwk1FF5YpQnq5DIxtPk=
+			/JTD3SUTj6G0w+Xkovy8i/PkdfaIfQduAGfZ2+g7p6I=
 			</data>
 		</dict>
 		<key>flutter_assets/NativeAssetsManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lUijHkoEgTXB2U+Rkyi/tirix7s8q5ZVfHlB2ql3dss=
+			2NGKKOz5DaL/SzEqDjq0vvsoVX3EWmEvAif6svmDL8c=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -795,7 +795,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3OTu8LGXtkCtaqqyIo7h7n3M+L1ta13lSE3RvRZDCng=
+			cmxkTNoXvycdmW+2KYBqWUCWB+mwDg3791rf05hru34=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/window_manager/images/ic_chrome_close.png</key>
@@ -830,14 +830,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TGVjYgE+Oyl6guvhhPPrWfynkxkJeFjSzSLsQqn7Q3M=
+			Ys5LpuNCVDcf/fuOBnCvzFMU9EUu317nCvzwefLtfqI=
 			</data>
 		</dict>
 		<key>flutter_assets/shaders/stretch_effect.frag</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y/95u280RMpR6e6ndBjH5Pm8ujZSD5Qf33woQ/NncNU=
+			Ic3y7MmxE2cfsihiDZUuuuDxAqeKOanfibbr32rsMVo=
 			</data>
 		</dict>
 	</dict>
