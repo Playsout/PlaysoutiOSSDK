@@ -1,14 +1,14 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/jasonzheng/workspace/projects/playsout_client/playsout_sdk/build/ios/framework/Release/iphoneos/Release-iphoneos/device_info_plus/device_info_plus.framework/device_info_plus'
+binary-path:     '/Users/jasonzheng/workspace/projects/playsout_client/playsout_sdk/dist/Release/iphoneos/Release-iphoneos/device_info_plus/device_info_plus.framework/device_info_plus'
 relocations:
-  - { offset: 0x39221, size: 0x8, addend: 0x0, symName: _device_info_plusVersionString, symObjAddr: 0x0, symBinAddr: 0x6358, symSize: 0x0 }
-  - { offset: 0x39257, size: 0x8, addend: 0x0, symName: _device_info_plusVersionNumber, symObjAddr: 0x30, symBinAddr: 0x6388, symSize: 0x0 }
-  - { offset: 0x39294, size: 0x8, addend: 0x0, symName: '+[DeviceIdentifiers userKnownDeviceModel:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xECC }
-  - { offset: 0x392A2, size: 0x8, addend: 0x0, symName: '+[DeviceIdentifiers userKnownDeviceModel:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xECC }
-  - { offset: 0x3934A, size: 0x8, addend: 0x0, symName: '+[FPPDeviceInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4ECC, symSize: 0x90 }
-  - { offset: 0x39370, size: 0x8, addend: 0x0, symName: '+[FPPDeviceInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4ECC, symSize: 0x90 }
-  - { offset: 0x393CF, size: 0x8, addend: 0x0, symName: '-[FPPDeviceInfoPlusPlugin handleMethodCall:result:]', symObjAddr: 0x90, symBinAddr: 0x4F5C, symSize: 0x664 }
-  - { offset: 0x395A6, size: 0x8, addend: 0x0, symName: '-[FPPDeviceInfoPlusPlugin availableMemoryInbMB]', symObjAddr: 0x6F4, symBinAddr: 0x55C0, symSize: 0x64 }
-  - { offset: 0x396CE, size: 0x8, addend: 0x0, symName: '-[FPPDeviceInfoPlusPlugin isDevicePhysical]', symObjAddr: 0x758, symBinAddr: 0x5624, symSize: 0x8 }
+  - { offset: 0x3E1A, size: 0x8, addend: 0x0, symName: _device_info_plusVersionString, symObjAddr: 0x0, symBinAddr: 0x63D8, symSize: 0x0 }
+  - { offset: 0x3E4E, size: 0x8, addend: 0x0, symName: _device_info_plusVersionNumber, symObjAddr: 0x30, symBinAddr: 0x6408, symSize: 0x0 }
+  - { offset: 0x3E8A, size: 0x8, addend: 0x0, symName: '+[DeviceIdentifiers userKnownDeviceModel:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xED0 }
+  - { offset: 0x3E97, size: 0x8, addend: 0x0, symName: '+[DeviceIdentifiers userKnownDeviceModel:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xED0 }
+  - { offset: 0x3F3B, size: 0x8, addend: 0x0, symName: '+[FPPDeviceInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4ED0, symSize: 0x9C }
+  - { offset: 0x4096, size: 0x8, addend: 0x0, symName: '+[FPPDeviceInfoPlusPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4ED0, symSize: 0x9C }
+  - { offset: 0x40EF, size: 0x8, addend: 0x0, symName: '-[FPPDeviceInfoPlusPlugin handleMethodCall:result:]', symObjAddr: 0x9C, symBinAddr: 0x4F6C, symSize: 0x6E4 }
+  - { offset: 0x42D5, size: 0x8, addend: 0x0, symName: '-[FPPDeviceInfoPlusPlugin availableMemoryInbMB]', symObjAddr: 0x780, symBinAddr: 0x5650, symSize: 0x64 }
+  - { offset: 0x4466, size: 0x8, addend: 0x0, symName: '-[FPPDeviceInfoPlusPlugin isDevicePhysical]', symObjAddr: 0x7E4, symBinAddr: 0x56B4, symSize: 0x8 }
 ...

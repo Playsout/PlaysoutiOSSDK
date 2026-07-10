@@ -10,11 +10,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/sqflite_darwin.framework.dSYM/Contents/Resources/DWARF/sqflite_darwin</key>
 		<data>
-		qEgsVECHNRtaG/uuJ6MS7PpiSUo=
+		PYSCpuhq4wBJEaAFfDQeYr2hnp0=
 		</data>
 		<key>ios-arm64/dSYMs/sqflite_darwin.framework.dSYM/Contents/Resources/Relocations/aarch64/sqflite_darwin.yml</key>
 		<data>
-		F/G2URjjqvTFVcDPsSe0MJzcFII=
+		bZ37vCkxGXwCMnxEgb9jW4YJMN0=
 		</data>
 		<key>ios-arm64/sqflite_darwin.framework/Headers/SqfliteImportPublic.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>ios-arm64/sqflite_darwin.framework/Info.plist</key>
 		<data>
-		2RsaItjzGAVYXArwWrBrU6Pg1gA=
+		g4y3FTvk44ZIQe8IIQh76VtyMFw=
 		</data>
 		<key>ios-arm64/sqflite_darwin.framework/Modules/module.modulemap</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>ios-arm64/sqflite_darwin.framework/sqflite_darwin</key>
 		<data>
-		WCcxh+Twfan7rWW7PGojaV63Wd0=
+		K0otbTToUD92uYX7YZ6+ZVSizPM=
 		</data>
 		<key>ios-arm64/sqflite_darwin.framework/sqflite_darwin_privacy.bundle/Info.plist</key>
 		<data>
-		OK2njsm8xQO112V5p01jcMOS+As=
+		sj30imy091SKspMilNBxk+zn6Js=
 		</data>
 		<key>ios-arm64/sqflite_darwin.framework/sqflite_darwin_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/sqflite_darwin.framework/Info.plist</key>
 		<data>
-		QF/XcC/Jc7YrUfyCu32V8xIT7gc=
+		NeriMHZkozqst2Tl4q8MJ1JypTE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/sqflite_darwin.framework/Modules/module.modulemap</key>
 		<data>
@@ -70,15 +70,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/sqflite_darwin.framework/_CodeSignature/CodeResources</key>
 		<data>
-		BdzEaY+5admpDnbtQLlpTQ4Xq2A=
+		TCbaZ2s7i1a4CQ7BJKfF6py0adI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/sqflite_darwin.framework/sqflite_darwin</key>
 		<data>
-		3Hc0MtXY1AP0kgei7C4+HQX5JGM=
+		CXVZTanABBvlK8DloJ9UBKojQYY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/sqflite_darwin.framework/sqflite_darwin_privacy.bundle/Info.plist</key>
 		<data>
-		zVN2pdQmoyn/0W526Ashh8AEu/c=
+		2wFDv+2wZ06Ce26Aq12IqXMTAvA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/sqflite_darwin.framework/sqflite_darwin_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N3QH5WZUFXiAigdhGdHnX67ZHNRl6RfJfCWK3s4MKN4=
+			otDEQkV9cSmG7j8G5xSF3wmrvPFB7Uz/qU+e12jAG4s=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/sqflite_darwin.framework.dSYM/Contents/Resources/Relocations/aarch64/sqflite_darwin.yml</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kIlxQm8/Mw8YfdrNTP1GwXGjwl0tUOzgITfj41IMu4c=
+			qlxL1n6O2/WbW3B4W1j6oWF0M4I9B61dvUFmC9l7j/A=
 			</data>
 		</dict>
 		<key>ios-arm64/sqflite_darwin.framework/Headers/SqfliteImportPublic.h</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9jrd9zgfqBxBy2qhV4NJOMBFK1WiJL6yaLoTjtckhPQ=
+			VnObK+GAUCbavEaxwRtwAc7o5N5iE74uv4Ui99/ivMY=
 			</data>
 		</dict>
 		<key>ios-arm64/sqflite_darwin.framework/Modules/module.modulemap</key>
@@ -147,14 +147,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Okszno+nRvo14isuYHOM4xjkIEbtP7C6dfTRaRFNtf8=
+			62/WWFzUb4bjU+h2Sgvk4PTlFuV2d9O8dxCQIzdaArk=
 			</data>
 		</dict>
 		<key>ios-arm64/sqflite_darwin.framework/sqflite_darwin_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g8pp0F8ecUzk6d1MiPtu/oW2HvK3fjdgJycxho77pHc=
+			v6eEkxUjHXmx0eOarqTfxm34ZlvLMCTBQ10NIT3lRMQ=
 			</data>
 		</dict>
 		<key>ios-arm64/sqflite_darwin.framework/sqflite_darwin_privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -189,7 +189,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zEy5KuA4y+f2zVd3rAI4ItN5BDQ3/0esA7DVsjx0nAc=
+			aHfYwfRhIWGZLdwwDR+YCmfUfkTjDU2gBbtc2F85Lcg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/sqflite_darwin.framework/Modules/module.modulemap</key>
@@ -203,21 +203,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UBzI55/laMuuyPI3HI4rhJRZV7HgPsjxMYdk9k+Rz+4=
+			ncH8im7BzT49yVO31nte9F0Hrq4FN1D6EIrOOLPI9uQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/sqflite_darwin.framework/sqflite_darwin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XoZWAp7gbKErWwoYluTTcLRGzV4E5PF/nJspiosZUIg=
+			g/5oZPvpQf2cVzqa75Tn4r+9E3FAmZNwCCfsBYa3WHg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/sqflite_darwin.framework/sqflite_darwin_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UYb6p0As5Qn6USek5uZEKDx4+BzYyeoCGhXK1Kid7BM=
+			HNWcvVYj5X0E2HKP4IE46W/Oko8e+4aXXwVRIUVn6UA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/sqflite_darwin.framework/sqflite_darwin_privacy.bundle/PrivacyInfo.xcprivacy</key>

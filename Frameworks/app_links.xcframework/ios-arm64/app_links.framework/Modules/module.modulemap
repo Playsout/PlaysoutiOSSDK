@@ -7,5 +7,4 @@ framework module app_links {
 
 module app_links.Swift {
   header "app_links-Swift.h"
-  requires objc
 }

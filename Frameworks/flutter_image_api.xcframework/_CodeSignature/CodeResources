@@ -10,11 +10,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/flutter_image_api.framework.dSYM/Contents/Resources/DWARF/flutter_image_api</key>
 		<data>
-		l2DzkFNaNQbaVr2CcWG4U32be00=
+		y32yzIJ6rhTBkK87B/ghxOmphCE=
 		</data>
 		<key>ios-arm64/dSYMs/flutter_image_api.framework.dSYM/Contents/Resources/Relocations/aarch64/flutter_image_api.yml</key>
 		<data>
-		hoVN0ut0PaOvI6J0Cnf6ic9/zWk=
+		6SblmyE2VWjYFlSqJwMYL5D/Bnc=
 		</data>
 		<key>ios-arm64/flutter_image_api.framework/Headers/flutter_image_api-umbrella.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>ios-arm64/flutter_image_api.framework/Info.plist</key>
 		<data>
-		YcUBhWAwYMR0adVY9owHBwIQxW8=
+		8fnkyNqNzvT5OwXuGnUgR43Jp2U=
 		</data>
 		<key>ios-arm64/flutter_image_api.framework/Modules/module.modulemap</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>ios-arm64/flutter_image_api.framework/flutter_image_api</key>
 		<data>
-		38hhwczZ+gWsU8fD+5E0s5P4Nwo=
+		XzMUNPBMqeSV0w/zUXQ9wuPeOyg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/flutter_image_api.framework/Headers/flutter_image_api-umbrella.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/flutter_image_api.framework/Info.plist</key>
 		<data>
-		GixAYS2lsKT6ALBGqGNWIywhoqY=
+		v1crwrETp6CHKg49c2XNRrPGciI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/flutter_image_api.framework/Modules/module.modulemap</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/flutter_image_api.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ZKqV3jreqik4HAAMQ92gN1zQRfY=
+		66pUOZsU3m0qzs+0fmVclxXj4P8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/flutter_image_api.framework/flutter_image_api</key>
 		<data>
-		Odmg3yJ4aMYlGoLV0OlsaJkSDY4=
+		PBVHmnHyX+yWdDu8L7qDfhZZbAI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -66,14 +66,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S4EnDflHt1qgOMFSMpiy6NzSCB/Dc7/3SJfuU9A2bno=
+			v7jpSgJAEZTOOqtFhtF1ZyKHBcw3uWt01G9/MxrwDs8=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/flutter_image_api.framework.dSYM/Contents/Resources/Relocations/aarch64/flutter_image_api.yml</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wyc/xJFHf5L1s2VatyeJqKpBx8DVeBXpuwNopaIio8U=
+			R2I9xrbucRSzRhi2BVMp9eKg7wUHqxHRdPR190hBwbg=
 			</data>
 		</dict>
 		<key>ios-arm64/flutter_image_api.framework/Headers/flutter_image_api-umbrella.h</key>
@@ -87,7 +87,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GncEjuhP9AJ5jeIZrEYDzMU8wNiKuWeIETXj7WfyknA=
+			NtRAr+nJZ1fPSU/FIhssrobH4EFnPCPFa/86X4CdUig=
 			</data>
 		</dict>
 		<key>ios-arm64/flutter_image_api.framework/Modules/module.modulemap</key>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DtDiu1TEbpstk7bAa+sODeOh3q0myxSyf1ZIxLdBUj8=
+			aAebMa/XQAgPLYfmeYhcYqfg05sF0HWRXqJNVHsCiuQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/flutter_image_api.framework/Headers/flutter_image_api-umbrella.h</key>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z8h1kQ+OkwNRl3qUcM4KXeI0mVtmh6JJqK0OQrePkKs=
+			XlqawbXpByTqElagsnZd/KtDy7EN3eBW0HRzGj9epak=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/flutter_image_api.framework/Modules/module.modulemap</key>
@@ -129,14 +129,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			caZnSPBg6k2Mkfhq5XA9VCkyukrVGLSjTNNsZZ2EnrI=
+			iP6G/yyvpf6PxD3ZUTjOJTFy/HIMlRiVAJiu6GZYPIg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/flutter_image_api.framework/flutter_image_api</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LqBWjZezqMyLCSvDBwGZyYW6LL5GMDNu2tYVnQESO1U=
+			QDquU4on9dDgyfGzP3lIKiHc5O0NFdZZNlxYcjZKjao=
 			</data>
 		</dict>
 	</dict>

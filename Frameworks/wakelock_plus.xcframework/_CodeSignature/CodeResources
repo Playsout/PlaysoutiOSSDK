@@ -10,11 +10,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/wakelock_plus.framework.dSYM/Contents/Resources/DWARF/wakelock_plus</key>
 		<data>
-		i8XIVMpvUwPSKPBrjC9gl5I0mS4=
+		hvzmcty5VJSa2EV0Ooz1QxLDJN0=
 		</data>
 		<key>ios-arm64/dSYMs/wakelock_plus.framework.dSYM/Contents/Resources/Relocations/aarch64/wakelock_plus.yml</key>
 		<data>
-		jKFX1wTMo5ejrD2BNMLjz8QHV80=
+		AnSmPzp6S8W6lCG7jqhxpP2lue4=
 		</data>
 		<key>ios-arm64/wakelock_plus.framework/Headers/UIApplication+idleTimerLock.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>ios-arm64/wakelock_plus.framework/Info.plist</key>
 		<data>
-		KEKrRkuXzTSuvwEpqXZxw9p2RBM=
+		nhazTewjLRPXA0dYOGzNR5CpgaY=
 		</data>
 		<key>ios-arm64/wakelock_plus.framework/Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>ios-arm64/wakelock_plus.framework/wakelock_plus</key>
 		<data>
-		5amBk4hd92nzfWTiy4QGriZS1lI=
+		i8KUsB4FVaZI7/hGOHDPZytJK98=
 		</data>
 		<key>ios-arm64/wakelock_plus.framework/wakelock_plus_privacy.bundle/Info.plist</key>
 		<data>
-		AMy8VD17a8NAZkNuBUcDCVhAYP0=
+		+vXjgx5/8Wn9J4QugWNtgffv7+0=
 		</data>
 		<key>ios-arm64/wakelock_plus.framework/wakelock_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/wakelock_plus.framework/Info.plist</key>
 		<data>
-		SWXwqJDmvRGHAROgO7qIzD8OhUU=
+		ZyFIv2+sSZ5O5j+m7YI5Km3Bxak=
 		</data>
 		<key>ios-arm64_x86_64-simulator/wakelock_plus.framework/Modules/module.modulemap</key>
 		<data>
@@ -78,15 +78,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/wakelock_plus.framework/_CodeSignature/CodeResources</key>
 		<data>
-		h4ZLzinJrNktBn55/K7OcRDazvc=
+		iaVv1G1O0R4/K87bKCNQwjGsRtQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/wakelock_plus.framework/wakelock_plus</key>
 		<data>
-		18BI8vlZU1pIfc5IkogssL+acPg=
+		9EX1JQ7h/q7MtrkZfXLbD2dUh0A=
 		</data>
 		<key>ios-arm64_x86_64-simulator/wakelock_plus.framework/wakelock_plus_privacy.bundle/Info.plist</key>
 		<data>
-		pOxD+AmjIKtPuYFZYYNBs/q6hSQ=
+		Aeyxc8ueM8EmPIEQRafLfwohwR8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/wakelock_plus.framework/wakelock_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -106,14 +106,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PEAeMrOulB0/eI2A7PSORcW5pbAH9SsMeJ48lrfjrZ8=
+			1JzpT25IhlRLicshK2TuydWZ8IoXe3PZhVSzDXAHEow=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/wakelock_plus.framework.dSYM/Contents/Resources/Relocations/aarch64/wakelock_plus.yml</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hvh4ktEhWXAPrv3F/JmCLRMBma4M23TEq3JWpgMUUQw=
+			fpyGewwq1UXyUwKNS52ybrmIhqMnIyK+yW4qhYWAzwM=
 			</data>
 		</dict>
 		<key>ios-arm64/wakelock_plus.framework/Headers/UIApplication+idleTimerLock.h</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oK2aPymQaZNncqGUJBVzYAQXiou9/OhX3SApBoL0wEs=
+			lttGODJoOAHcFlApGUa95EOA655lqJA0Z8J1uROHN7s=
 			</data>
 		</dict>
 		<key>ios-arm64/wakelock_plus.framework/Modules/module.modulemap</key>
@@ -162,14 +162,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wD3dte83aiKF/tOG77p4n7yESLqvFM36Mpp3rCK9lvY=
+			LKBLoYt9sd9MgTdqNwmeJu9JVhnN2IUp/rN/8C8Poig=
 			</data>
 		</dict>
 		<key>ios-arm64/wakelock_plus.framework/wakelock_plus_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GiZg89r175JpsnD5N8QEQtZnZuwBA81kqFCYsoPea7E=
+			VjRToPrHo5mA+ZLKT2ZdI9fzVUaMngLG4pCDPvbgQUA=
 			</data>
 		</dict>
 		<key>ios-arm64/wakelock_plus.framework/wakelock_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>
@@ -211,7 +211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yGmv3DOc1z75IaehZ/J4WhP9NDZs2+V3Gdm3sf84/44=
+			WvFDdxgb8kIzu5h40SbHFTJr8vV/9124aAOIcrixtLo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/wakelock_plus.framework/Modules/module.modulemap</key>
@@ -225,21 +225,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5/b/l8p7+ALbA3W1sYkX8b/9goGB7Alq0iLR6l1vwQ4=
+			DLrz48+nGE/j8QvJO1TEJ08/3Z8jGbPe4VYYLi7U/e0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/wakelock_plus.framework/wakelock_plus</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sXAu1QVfAEoyRZoM0/H5mDiInUPP1HKNJ74gVmzDTxU=
+			b4Jsx0vvHk8ds3FBAe8Io9G0b0AKUlb58oHC+7ZiFCg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/wakelock_plus.framework/wakelock_plus_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			06aPVhuP508Us4c+3lEuwIYmNbUSvSmlMc2lo541qXQ=
+			/TcxWSxp4Z7BPPfteJOqP6v7Jdh8E421xpFidLsm5Zc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/wakelock_plus.framework/wakelock_plus_privacy.bundle/PrivacyInfo.xcprivacy</key>

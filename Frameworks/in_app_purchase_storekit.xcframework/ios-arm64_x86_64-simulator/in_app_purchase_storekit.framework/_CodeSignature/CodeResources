@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/in_app_purchase_storekit-Swift.h</key>
 		<data>
-		RWWpSxxblGVFUU5GxfwcoP2ppXA=
+		jDbjIdFJxF47s06P6Vhp+QZMGkE=
 		</data>
 		<key>Headers/in_app_purchase_storekit-umbrella.h</key>
 		<data>
@@ -66,63 +66,63 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NlhjtbiCWSH6Af9gZ33TEYlSFEo=
+		4Uom1/OAPa8/VSNIhkB9lBmukKo=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		h+F+Hr+LgLJJ1/Kk678LYISSu4I=
+		h6LrjKvaS7awvjd5bS6y/LIHyDY=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		5jao+m8edlSXFRl+08l6I9RO32o=
+		tsUnhYARZQ1wY16EoPP0CLzO+tg=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Nqp/5+wAax0rBzJsLET1kgEZxFE=
+		uJmL3yaG/WkZMkrHvnvTnTJ+U+E=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		owP2JoWlKsmnyVMSXzYQ5kOAsNQ=
+		fq+EBUXopOdu+YJxc+Y6c7x4Xl0=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2e1ATuNwsxwGFR7Qug6/xkbUp08=
+		xWX3q7pmXIi0PFjfOdXXN5m05yk=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		owP2JoWlKsmnyVMSXzYQ5kOAsNQ=
+		fq+EBUXopOdu+YJxc+Y6c7x4Xl0=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QHjSZDbPaBE+RZsBN6WdBp0fkeg=
+		mCGINK5kpiB/02ZOkoVeEFcWdxs=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Nqp/5+wAax0rBzJsLET1kgEZxFE=
+		uJmL3yaG/WkZMkrHvnvTnTJ+U+E=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GhW+ZCNGcTxh+LY+ufU7KUdFjMk=
+		ttbnaXJj37yKhFwCSkilHbY94UY=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wgOjuf8ltB9rGcKZ6DkXTk6yViM=
+		5ci8xOIyBl9YKG/yQuo7EPdnECA=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GhW+ZCNGcTxh+LY+ufU7KUdFjMk=
+		ttbnaXJj37yKhFwCSkilHbY94UY=
 		</data>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oOVaFp3Okt8g7uSw4Uy7lPp/UxU=
+		/6phUfO+GFLQX+i4mLAJbjHPNkU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		25WAfE7JtLFi0zVXh9ziyd20FNw=
+		hg0inCTeVUN/udsOvCA8w1Ty9XU=
 		</data>
 		<key>in_app_purchase_storekit_privacy.bundle/Info.plist</key>
 		<data>
-		DEFW2nExAM+M8MgWiPtAq8B75jo=
+		AD5l+CLEUwflCbbbRBDY0Nuak74=
 		</data>
 		<key>in_app_purchase_storekit_privacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -212,7 +212,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VdVUV2h6qsopakpXDyCoWMgdNJ/mno9dExCSpag748U=
+			gErDmhiUjI73JucmTF1WhebortQW4YHR9ZaU5gv3kPs=
 			</data>
 		</dict>
 		<key>Headers/in_app_purchase_storekit-umbrella.h</key>
@@ -240,98 +240,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YvRbRjsiFW8DRgah0agVnyF7f7GMMHuyyV9GCSnOEO0=
+			28WVlHKK6b3ITYRpfSf0rm+pfHAqzwwb+yit3/ROEZ8=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/MrgiEu7T/E9y3Sopm/76AffIm7o3BiTK8JaN7QrxdE=
+			iTaHbDMTWlV14JQ7pMicacyK+7j3UMC8d9C+c4+sxso=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M4bcTaQ+qjs6NR/egprA6x4WN2r32PuN3RG/isfHdkQ=
+			/1t+9U6Me7jPusBV002Z2HSmYHMouqrRTQatZLoDbpU=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RL8qfP2GPlHcO2ZRWcU54thtfS+zoB4UJZP7joWg2sg=
+			9X6TctVybkgEG5GgG2Fm5eHIPC/ev46qFH1KENlZx/s=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x7qMjklNBoJIlCtUPQpdYv+FI6pWfqi7W0NKaHwyRK4=
+			pYrZudSKaXWPCrYE21PCM+1VC75yPAEt8CXgz3hRg4U=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RL8qfP2GPlHcO2ZRWcU54thtfS+zoB4UJZP7joWg2sg=
+			9X6TctVybkgEG5GgG2Fm5eHIPC/ev46qFH1KENlZx/s=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lwQNeFID3YzvdN9K/upzLtdZThS49tNO45eBnF5fmTs=
+			45dXWmz5hiw2hNu2U0lzRKoY8il8VJ5EU5hJTx2bVm0=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M4bcTaQ+qjs6NR/egprA6x4WN2r32PuN3RG/isfHdkQ=
+			/1t+9U6Me7jPusBV002Z2HSmYHMouqrRTQatZLoDbpU=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cjYbWXS5WO79au2BtSMNrdCYKiTRBx+hcVBh7RIyj7E=
+			49LB4eeD+yuJsSF9IAk0/E02oh6231xK5B+OmJB4KSU=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GhYk+X/tJBsXJJ0FudPE91fk4DhPMSsIeQzGkMdz0P0=
+			ApErpDPWSbTYA+qh5QXsBoGpQwoEuYy5j78FO3YH27c=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cjYbWXS5WO79au2BtSMNrdCYKiTRBx+hcVBh7RIyj7E=
+			49LB4eeD+yuJsSF9IAk0/E02oh6231xK5B+OmJB4KSU=
 			</data>
 		</dict>
 		<key>Modules/in_app_purchase_storekit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RcstDJzBTIOUbWUmvLhI3uLujTikOnWj6VAeRijEEg4=
+			Z1rFKnveQbCAZMkJ++AFpulSxGfr4YIoWJ8ElAnPKzY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0pLHZu5wvF9LrisSjOKJzeMtQt/wM9s1iRpGxGiw5I4=
+			tldpdX4aIGj4tAFEKGy9IzXvvPcg2aZWIaBXyKbyhtE=
 			</data>
 		</dict>
 		<key>in_app_purchase_storekit_privacy.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N3OdugzyDzXMqXX135ezYa/mI7sKofrQIsNczRBau7s=
+			TwLy6Q+uX1wlP/B7r5GXoIFGDQJl21v/6ijsVzxrWS0=
 			</data>
 		</dict>
 		<key>in_app_purchase_storekit_privacy.bundle/PrivacyInfo.xcprivacy</key>

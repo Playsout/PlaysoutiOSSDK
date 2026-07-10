@@ -7,5 +7,4 @@ framework module flutter_udid {
 
 module flutter_udid.Swift {
   header "flutter_udid-Swift.h"
-  requires objc
 }

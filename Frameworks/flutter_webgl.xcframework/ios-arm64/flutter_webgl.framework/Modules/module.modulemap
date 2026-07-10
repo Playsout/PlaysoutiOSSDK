@@ -7,5 +7,4 @@ framework module flutter_webgl {
 
 module flutter_webgl.Swift {
   header "flutter_webgl-Swift.h"
-  requires objc
 }

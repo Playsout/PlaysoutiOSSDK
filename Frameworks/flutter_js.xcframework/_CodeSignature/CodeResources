@@ -10,11 +10,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/flutter_js.framework.dSYM/Contents/Resources/DWARF/flutter_js</key>
 		<data>
-		czisZRh0Jnq750iKpkncj+1pN+Q=
+		KSnhT5K6WR4cDWiy8uryM+laL10=
 		</data>
 		<key>ios-arm64/dSYMs/flutter_js.framework.dSYM/Contents/Resources/Relocations/aarch64/flutter_js.yml</key>
 		<data>
-		aUveqZPuGwT1qDRPq6WILrZ5UII=
+		b8A47BsVRLgTCAjmQyUe0R0pTSE=
 		</data>
 		<key>ios-arm64/flutter_js.framework/Headers/allocation.h</key>
 		<data>
@@ -562,7 +562,7 @@
 		</data>
 		<key>ios-arm64/flutter_js.framework/Info.plist</key>
 		<data>
-		xEwYtk4+c/VolN+jGdUdM5Usx0A=
+		W2P43Jxi484Dq7XW4WoNQClBr7k=
 		</data>
 		<key>ios-arm64/flutter_js.framework/Modules/module.modulemap</key>
 		<data>
@@ -570,7 +570,7 @@
 		</data>
 		<key>ios-arm64/flutter_js.framework/flutter_js</key>
 		<data>
-		DO7QXaWH1DGH2fJK55xf0fUCmBY=
+		weu73PZ4bpFp76N48bKPhQYlZHA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/flutter_js.framework/Headers/allocation.h</key>
 		<data>
@@ -1118,7 +1118,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/flutter_js.framework/Info.plist</key>
 		<data>
-		4wdKNfSISlKvqcu5cKNoUVecqTY=
+		3vysUWOPM79YlGknboKbO+/8Nlo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/flutter_js.framework/Modules/module.modulemap</key>
 		<data>
@@ -1126,11 +1126,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/flutter_js.framework/_CodeSignature/CodeResources</key>
 		<data>
-		wsvxqBoef0uw3XDAORD6ICVKjE4=
+		PhOhdUi5EA7mvOREqu+dfZDG9RA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/flutter_js.framework/flutter_js</key>
 		<data>
-		WZ1MDXJwoavaoUTquQNSsCPzJbw=
+		q/XP78cyBgjLs+ZzFYlsSGCv7Z8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1146,14 +1146,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6FR555AqP5ttLVoxljTTcQWOkahpWWB+zcB6gLsUSTs=
+			u4vESH1rKHwqdEVnisGBgDZMuhxlFIqe5n2UbPD2C58=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/flutter_js.framework.dSYM/Contents/Resources/Relocations/aarch64/flutter_js.yml</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JmELIpBuCt0P8bf0TIqyu4VsNRFaMXZVIa35Qa0HlYg=
+			VaSEns/DCKZVYZX1bssqCKSYKoNyCcU2JchuQNThaIk=
 			</data>
 		</dict>
 		<key>ios-arm64/flutter_js.framework/Headers/allocation.h</key>
@@ -2112,7 +2112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+ZO4BHqo7/6IPIGBkwjXZ6oRvxrcV4A1TKz6x2+liBc=
+			/6MWcfu5ovHH7FAgtQ3aDd6NfzeU683pcyAlSVqTGWg=
 			</data>
 		</dict>
 		<key>ios-arm64/flutter_js.framework/Modules/module.modulemap</key>
@@ -2126,7 +2126,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uu7ud2oEHO+PSUVuvfG5g/NmuFHOs4tqATKxj7mdQF4=
+			lxC6CHM8ztinNlI17kS32lWN8qy/BhxyOG7SxoRmUwQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/flutter_js.framework/Headers/allocation.h</key>
@@ -3085,7 +3085,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Q4wslnCd585/FcJ0xLRzAFsRtRHkGDZwRBTQ2VxvAw=
+			Kx581w4XU4H8k7x8VmywrBe9kHzALCxqREBT71EHrdY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/flutter_js.framework/Modules/module.modulemap</key>
@@ -3099,14 +3099,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/3NuVCHAw1YwR0MxxQoUeeB03KI4Kymj/twNKgfo+wM=
+			161QUTwglU4ZF0milt5eb21Kz8/BH6/q0DzLGEUZVuw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/flutter_js.framework/flutter_js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ixqIECFfhZ8FVzF6s/oXfpb7f2SdUyYQGM3fzo7PYzQ=
+			WBwGOlOeAROs8kw0KQ6/kj5hvSh80cFNc0VjdRuMVmc=
 			</data>
 		</dict>
 	</dict>

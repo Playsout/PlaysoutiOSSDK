@@ -1,5 +1,5 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/jasonzheng/workspace/projects/playsout_client/playsout_sdk/build/ios/framework/Release/iphoneos/native_assets/objective_c.framework/objective_c'
+binary-path:     '/Users/jasonzheng/workspace/projects/playsout_client/playsout_sdk/dist/Release/iphoneos/native_assets/objective_c.framework/objective_c'
 relocations:     []
 ...

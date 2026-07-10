@@ -7,5 +7,4 @@ framework module vibration {
 
 module vibration.Swift {
   header "vibration-Swift.h"
-  requires objc
 }
