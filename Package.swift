@@ -7,8 +7,15 @@ let package = Package(
     products: [
         .library(
             name: "PlaysoutiOSSDK",
-            targets: [
-                "App",
+            targets: ["App"]
+        )
+    ],
+    targets: [
+        // MARK: - Main SDK Target
+        .binaryTarget(
+            name: "App",
+            path: "Frameworks/App.xcframework",
+            dependencies: [
                 "FBLPromises",
                 "FirebaseAnalytics",
                 "FirebaseCore",
@@ -54,11 +61,11 @@ let package = Package(
                 "url_launcher_ios",
                 "vibration",
                 "wakelock_plus",
-                "webview_flutter_wkwebview"
+                "webview_flutter_wkwebview",
             ]
-        )
-    ],
-    targets: [
+        ),
+
+        // MARK: - Dependencies
         .binaryTarget(name: "App", path: "Frameworks/App.xcframework"),
         .binaryTarget(name: "FBLPromises", path: "Frameworks/FBLPromises.xcframework"),
         .binaryTarget(name: "FirebaseAnalytics", path: "Frameworks/FirebaseAnalytics.xcframework"),
@@ -105,6 +112,6 @@ let package = Package(
         .binaryTarget(name: "url_launcher_ios", path: "Frameworks/url_launcher_ios.xcframework"),
         .binaryTarget(name: "vibration", path: "Frameworks/vibration.xcframework"),
         .binaryTarget(name: "wakelock_plus", path: "Frameworks/wakelock_plus.xcframework"),
-        .binaryTarget(name: "webview_flutter_wkwebview", path: "Frameworks/webview_flutter_wkwebview.xcframework")
+        .binaryTarget(name: "webview_flutter_wkwebview", path: "Frameworks/webview_flutter_wkwebview.xcframework"),
     ]
 )
