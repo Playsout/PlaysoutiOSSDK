@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-PlaysoutiOSSDK CI Script
-- 扫描 Frameworks/*.xcframework
-- 生成语义正确的 Package.swift
-- 更新 README.md 中的 Embed 对照表
+PlaysoutiOSSDK CI 构建脚本
+- 自动扫描 Frameworks/*.xcframework
+- 生成符合 SPM 规范的 Package.swift（采用 target 包装层承载依赖，解决 binaryTarget 无法声明依赖的问题）
+- 自动更新 README 中的 XCFramework 嵌入对照表
 """
 
 import os
@@ -11,8 +11,9 @@ import glob
 import subprocess
 import pathlib
 
-# ========== 基础配置 ==========
+# ========== 基础配置（和提供的 Package.swift 完全对齐） ==========
 PACKAGE_NAME = "PlaysoutiOSSDK"
+WRAPPER_TARGET_NAME = "PlaysoutiOSSDKFramework"  # 对外暴露的中间 target
 MIN_IOS_VERSION = "16"
 README_PATH = pathlib.Path("README.md")
 
@@ -20,21 +21,19 @@ EMBED_TABLE_MARKER_START = "<!-- EMBED_TABLE_START -->"
 EMBED_TABLE_MARKER_END = "<!-- EMBED_TABLE_END -->"
 
 # ========== 工具函数 ==========
-def framework_type(xcframework_path: str) -> str:
-    """
-    判断 xcframework 是 static 还是 dynamic
-    """
-    name = os.path.basename(xcframework_path).replace(".xcframework", "")
+def detect_framework_type(xcframework_path: str) -> str:
+    """检测 xcframework 是静态库还是动态库"""
+    framework_name = os.path.basename(xcframework_path).replace(".xcframework", "")
 
-    # 常见二进制路径
-    patterns = [
-        f"{xcframework_path}/ios-arm64/{name}.framework/{name}",
-        f"{xcframework_path}/ios-arm64/*.framework/{name}",
-        f"{xcframework_path}/ios-arm64/**/{name}.a",
+    # 优先查找常见的二进制路径
+    search_patterns = [
+        f"{xcframework_path}/ios-arm64/{framework_name}.framework/{framework_name}",
+        f"{xcframework_path}/ios-arm64/*.framework/{framework_name}",
+        f"{xcframework_path}/ios-arm64/**/{framework_name}.a",
     ]
 
     binary_path = None
-    for pattern in patterns:
+    for pattern in search_patterns:
         matches = glob.glob(pattern, recursive=True)
         if matches:
             binary_path = matches[0]
@@ -61,35 +60,38 @@ def framework_type(xcframework_path: str) -> str:
         return "unknown"
 
 
-def collect_frameworks() -> list[str]:
-    frameworks = sorted(glob.glob("Frameworks/*.xcframework"))
-    if not frameworks:
+def collect_all_frameworks() -> list[str]:
+    """扫描所有 xcframework，返回排序后的框架名称列表"""
+    xcframeworks = sorted(glob.glob("Frameworks/*.xcframework"))
+    if not xcframeworks:
         raise SystemExit("❌ Frameworks/ 目录下未找到任何 .xcframework")
-    return frameworks
+
+    framework_names = []
+    for xcframework in xcframeworks:
+        name = os.path.basename(xcframework).replace(".xcframework", "")
+        framework_names.append(name)
+    return framework_names
 
 
 # ========== 主逻辑 ==========
 def main():
-    frameworks = collect_frameworks()
+    # 1. 扫描所有框架
+    all_framework_names = collect_all_frameworks()
+    print(f"✅ 扫描到 {len(all_framework_names)} 个 XCFramework")
 
-    # 所有 framework 名称
-    all_framework_names: list[str] = []
-    binary_target_blocks: list[str] = []
-
-    for fw in frameworks:
-        name = os.path.basename(fw).replace(".xcframework", "")
-        all_framework_names.append(name)
-        binary_target_blocks.append(
-            f'        .binaryTarget(name: "{name}", path: "Frameworks/{name}.xcframework"),'
-        )
-
-    # ✅ App 依赖所有其他 framework
-    app_dependencies = [
-        f'                "{n}",' for n in all_framework_names if n != "App"
+    # 2. 生成 wrapper target 的依赖列表（所有 binaryTarget 都需要作为它的依赖）
+    wrapper_dependencies = [
+        f'                "{name}",' for name in all_framework_names
     ]
 
-    # ========== 生成 Package.swift ==========
-    package_swift = f'''// swift-tools-version:5.9
+    # 3. 生成所有 binaryTarget 的定义
+    binary_target_blocks = [
+        f'        .binaryTarget(name: "{name}", path: "Frameworks/{name}.xcframework"),'
+        for name in all_framework_names
+    ]
+
+    # ========== 生成 Package.swift（和你提供的结构 100% 对齐） ==========
+    package_swift_content = f'''// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
@@ -98,55 +100,56 @@ let package = Package(
     products: [
         .library(
             name: "{PACKAGE_NAME}",
-            targets: ["App"]
+            targets: ["{WRAPPER_TARGET_NAME}"]
         )
     ],
     targets: [
-        // MARK: - Main SDK Target
-        .binaryTarget(
-            name: "App",
-            path: "Frameworks/App.xcframework",
+        // MARK: - 对外暴露的中间 Target（承载所有依赖，无实际源码）
+        .target(
+            name: "{WRAPPER_TARGET_NAME}",
             dependencies: [
-{chr(10).join(app_dependencies)}
+{chr(10).join(wrapper_dependencies)}
             ]
         ),
 
-        // MARK: - Dependencies
+        // MARK: - 所有预编译依赖
 {chr(10).join(binary_target_blocks)}
     ]
 )
 '''
+    pathlib.Path("Package.swift").write_text(package_swift_content)
+    print("✅ Package.swift 生成成功")
 
-    pathlib.Path("Package.swift").write_text(package_swift)
-    print("✅ Package.swift generated")
-
-    # ========== 生成 Embed 对照表 ==========
-    embed_lines = [
+    # ========== 生成 XCFramework 嵌入对照表 ==========
+    embed_table_lines = [
         "## XCFramework Embed 对照表",
         "",
-        "| Framework | Type | Xcode Embed Setting |",
-        "|---------|------|---------------------|",
+        "| Framework | 类型 | Xcode 嵌入设置 |",
+        "|---------|------|----------------|",
     ]
 
-    for fw in frameworks:
-        name = os.path.basename(fw)
-        ftype = framework_type(fw)
-        embed = (
+    for framework_name in all_framework_names:
+        xcframework_path = f"Frameworks/{framework_name}.xcframework"
+        framework_type = detect_framework_type(xcframework_path)
+        embed_setting = (
             "Do Not Embed"
-            if "static" in ftype
+            if "static" in framework_type
             else "Embed & Sign"
         )
-        embed_lines.append(f"| `{name}` | {ftype} | **{embed}** |")
+        embed_table_lines.append(
+            f"| `{framework_name}.xcframework` | {framework_type} | **{embed_setting}** |"
+        )
 
-    embed_table = "\n".join(embed_lines)
+    embed_table = "\n".join(embed_table_lines)
 
     # ========== 更新 README.md ==========
-    readme_text = ""
+    readme_content = ""
     if README_PATH.exists():
-        readme_text = README_PATH.read_text()
+        readme_content = README_PATH.read_text()
 
-    if EMBED_TABLE_MARKER_START in readme_text and EMBED_TABLE_MARKER_END in readme_text:
-        before, rest = readme_text.split(EMBED_TABLE_MARKER_START, 1)
+    if EMBED_TABLE_MARKER_START in readme_content and EMBED_TABLE_MARKER_END in readme_content:
+        # 替换已有表格
+        before, rest = readme_content.split(EMBED_TABLE_MARKER_START, 1)
         _, after = rest.split(EMBED_TABLE_MARKER_END, 1)
         new_readme = (
             before
@@ -158,8 +161,9 @@ let package = Package(
             + after
         )
     else:
+        # 首次添加表格
         new_readme = (
-            readme_text
+            readme_content
             + "\n\n"
             + EMBED_TABLE_MARKER_START
             + "\n"
@@ -169,7 +173,7 @@ let package = Package(
         )
 
     README_PATH.write_text(new_readme)
-    print("✅ README.md Embed 对照表已更新")
+    print("✅ README.md 嵌入对照表更新成功")
     print("\n🎉 CI 脚本执行完成")
 
 

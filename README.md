@@ -5,8 +5,8 @@ Playsout sdk for iOS(Framework)
 <!-- EMBED_TABLE_START -->
 ## XCFramework Embed 对照表
 
-| Framework | Type | Xcode Embed Setting |
-|---------|------|---------------------|
+| Framework | 类型 | Xcode 嵌入设置 |
+|---------|------|----------------|
 | `App.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
 | `FBLPromises.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
 | `FirebaseAnalytics.xcframework` | static (Do Not Embed) | **Do Not Embed** |

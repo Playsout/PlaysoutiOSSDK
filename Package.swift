@@ -7,15 +7,15 @@ let package = Package(
     products: [
         .library(
             name: "PlaysoutiOSSDK",
-            targets: ["App"]
+            targets: ["PlaysoutiOSSDKFramework"]
         )
     ],
     targets: [
-        // MARK: - Main SDK Target
-        .binaryTarget(
-            name: "App",
-            path: "Frameworks/App.xcframework",
+        // MARK: - 对外暴露的中间 Target（承载所有依赖，无实际源码）
+        .target(
+            name: "PlaysoutiOSSDKFramework",
             dependencies: [
+                "App",
                 "FBLPromises",
                 "FirebaseAnalytics",
                 "FirebaseCore",
@@ -65,7 +65,7 @@ let package = Package(
             ]
         ),
 
-        // MARK: - Dependencies
+        // MARK: - 所有预编译依赖
         .binaryTarget(name: "App", path: "Frameworks/App.xcframework"),
         .binaryTarget(name: "FBLPromises", path: "Frameworks/FBLPromises.xcframework"),
         .binaryTarget(name: "FirebaseAnalytics", path: "Frameworks/FirebaseAnalytics.xcframework"),
