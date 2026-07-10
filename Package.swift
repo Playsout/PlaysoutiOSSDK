@@ -62,7 +62,8 @@ let package = Package(
                 "vibration",
                 "wakelock_plus",
                 "webview_flutter_wkwebview",
-            ]
+            ],
+	    path: "Sources/PlaysoutiOSSDKFramework"
         ),
 
         // MARK: - 所有预编译依赖
