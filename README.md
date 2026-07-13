@@ -3,20 +3,12 @@ Playsout sdk for iOS(Framework)
 
 
 <!-- EMBED_TABLE_START -->
-## XCFramework Embed 对照表
+## XCFramework Embed Table
 
-| Framework | 类型 | Xcode 嵌入设置 |
+| Framework | Type | Xcode Embed setting |
 |---------|------|----------------|
 | `App.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
 | `FBLPromises.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
-| `FirebaseAnalytics.xcframework` | static (Do Not Embed) | **Do Not Embed** |
-| `FirebaseCore.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
-| `FirebaseCoreExtension.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
-| `FirebaseCoreInternal.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
-| `FirebaseCrashlytics.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
-| `FirebaseInstallations.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
-| `FirebaseRemoteConfigInterop.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
-| `FirebaseSessions.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
 | `Flutter.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
 | `FlutterPluginRegistrant.xcframework` | static (Do Not Embed) | **Do Not Embed** |
 | `GoogleAppMeasurement.xcframework` | static (Do Not Embed) | **Do Not Embed** |
@@ -32,9 +24,6 @@ Playsout sdk for iOS(Framework)
 | `app_links.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
 | `audioplayers_darwin.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
 | `device_info_plus.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
-| `firebase_analytics.xcframework` | static (Do Not Embed) | **Do Not Embed** |
-| `firebase_core.xcframework` | static (Do Not Embed) | **Do Not Embed** |
-| `firebase_crashlytics.xcframework` | static (Do Not Embed) | **Do Not Embed** |
 | `flutter_image_api.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
 | `flutter_js.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
 | `flutter_udid.xcframework` | dynamic (Embed & Sign) | **Embed & Sign** |
